@@ -11,39 +11,32 @@ pre: " <b> 1.1. </b> "
 
 ### Week 1 Objectives (20/04/2026 - 25/04/2026):
 
-* Understand internship workflow, mentor expectations, and FCJ collaboration process.
-* Read the project guidance in `AWS-First-Cloud-Journey/Internship` repository.
-* Initialize and customize this workshop template for structured reporting.
-* Set up local development environment to preview and validate content before submission.
+* Create and activate an AWS account for hands-on practice.
+* Complete core tasks in the credit-earning program.
+* Learn cost control basics and resource checks across regions.
+* Start writing and publishing weekly worklog on GitHub.
 
-### Tasks for this week:
+### Daily Worklog:
 
-| Day | Task | Start Date | Completion Date | Reference Material |
-| --- | --- | --- | --- | --- |
-| 2 | - Onboarding with mentor and FCJ team <br> - Understand internship reporting flow and review checkpoints | 20/04/2026 | 20/04/2026 | Internal FCJ docs |
-| 3 | - Study internship guidance repo: structure for report, worklog, proposal, workshop <br> - Draft the 12-week high-level plan | 21/04/2026 | 21/04/2026 | <https://github.com/AWS-First-Cloud-Journey/Internship> |
-| 4 | - Install core tools: Git, Hugo Extended, VS Code <br> - Clone template and open project locally | 22/04/2026 | 22/04/2026 | <https://gohugo.io/installation/> |
-| 5 | - Update personal information in template <br> - Draft Week 1 worklog from actual activities | 23/04/2026 | 24/04/2026 | FCJ Template |
-| 6 | - Run local site and verify EN/VI navigation <br> - Fix markdown formatting and menu links | 24/04/2026 | 24/04/2026 | Hugo Docs |
-| 7 | - Final review with mentor <br> - Lock Week 1 version and prepare Week 2 handover | 25/04/2026 | 25/04/2026 | Internal FCJ docs |
+| Day | Activities | Outcome |
+| --- | --- | --- |
+| Day 1 (20/04/2026) | Tried creating an AWS account. Account was **suspended**, so onboarding could not continue. | Account creation failed; identified account verification as the main blocker. |
+| Day 2 (21/04/2026) | Continued account setup troubleshooting. After multiple attempts, used a rented phone number for verification and finally activated the account. Started the 5-task challenge for 100$ credit and completed **EC2**, **AWS Budgets**, and **AWS Lambda**. | AWS account activated; 3/5 tasks completed. |
+| Day 3 (22/04/2026) | Continued with remaining tasks: **RDS Database** and **Amazon Bedrock**. | Completed all 5 tasks planned for the week. |
+| Day 4 (23/04/2026) | Studied how to write a proper worklog: structure, daily progress format, issue logging, and lessons learned section. | Established a clear format for writing internship worklogs. |
+| Day 5 (24/04/2026) | Checked billing and found unexpected charge on **Relational Database Service: 8.78$** even after deleting main resources. Audited all services and discovered leftover Aurora/RDS resources in **N. California** region. Deleted them immediately. | Stopped extra cost leakage; learned to validate resources in every region used during labs. |
+| Day 6 (25/04/2026) | Practiced writing Week 1 worklog and uploaded updates to GitHub. | Completed Week 1 worklog and prepared for Week 2. |
 
 ### Week 1 Achievements:
 
-* Understood the 12-week internship structure and how to write worklog entries using FCJ template.
+* Successfully activated AWS account after resolving initial suspension issue.
+* Completed the 5-task credit track (EC2, AWS Budgets, AWS Lambda, RDS Database, Amazon Bedrock).
+* Built initial habit for billing review and cross-region resource cleanup.
+* Finished and published Week 1 worklog on GitHub.
 
-* Set up local reporting workflow:
-  * Content structure in `content/`
-  * Editing pattern for `_index.vi.md` and `_index.md`
-  * Local preview process with Hugo before pushing changes
+### Key Lessons Learned:
 
-* Completed Week 1 draft based on real timeline `20/04/2026 - 25/04/2026`.
-
-* Established baseline working flow:
-  * Read guidance
-  * Write based on template
-  * Preview locally
-  * Refine and finalize
-
-* Transition plan for Week 2:
-  * Start detailed proposal content
-  * Deliver first technical milestone assigned by mentor
+* Validate account status early to avoid wasting setup time in the first days.
+* After RDS/Aurora labs, always audit resources in **all visited regions**, not only the default one.
+* Enable and monitor AWS Budgets early to catch abnormal charges quickly.
+* Detailed daily notes make weekly reporting and mentor check-ins much easier.

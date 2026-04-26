@@ -11,39 +11,32 @@ pre: " <b> 1.1. </b> "
 
 ### Mục tiêu tuần 1 (20/04/2026 - 25/04/2026):
 
-* Làm quen quy trình thực tập, mentor và cách làm việc tại FCJ.
-* Đọc kỹ tài liệu hướng dẫn dự án tại repository `AWS-First-Cloud-Journey/Internship`.
-* Khởi tạo và tùy chỉnh workshop template để bắt đầu viết báo cáo đúng cấu trúc.
-* Cài đặt môi trường phát triển local để có thể chạy và kiểm tra nội dung trước khi nộp.
+* Tạo và kích hoạt tài khoản AWS để bắt đầu thực hành.
+* Hoàn thành các nhiệm vụ nền tảng trong chương trình nhận credit.
+* Làm quen cách kiểm soát chi phí và kiểm tra tài nguyên theo từng region.
+* Bắt đầu viết worklog và đưa nội dung lên GitHub.
 
-### Các công việc triển khai trong tuần:
+### Nhật ký công việc theo ngày:
 
-| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
-| --- | --- | --- | --- | --- |
-| 2 | - Làm quen với mentor và team FCJ <br> - Nắm quy trình báo cáo thực tập, lịch họp, cách review | 20/04/2026 | 20/04/2026 | Nội bộ FCJ |
-| 3 | - Đọc repo hướng dẫn thực tập: cấu trúc báo cáo, worklog, proposal, workshop <br> - Tóm tắt các đầu việc cần làm trong 12 tuần | 21/04/2026 | 21/04/2026 | <https://github.com/AWS-First-Cloud-Journey/Internship> |
-| 4 | - Cài đặt công cụ: Git, Hugo Extended, VS Code <br> - Clone template và mở project local | 22/04/2026 | 22/04/2026 | <https://gohugo.io/installation/> |
-| 5 | - Cập nhật thông tin cá nhân trong template <br> - Viết draft Worklog tuần 1 theo thực tế | 23/04/2026 | 24/04/2026 | Template FCJ |
-| 6 | - Chạy local site, kiểm tra điều hướng tiếng Việt/tiếng Anh <br> - Sửa lỗi định dạng markdown và link menu | 24/04/2026 | 24/04/2026 | Hugo Docs |
-| 7 | - Rà soát nội dung cuối tuần với mentor <br> - Chốt bản tuần 1 sẵn sàng cho tuần 2 | 25/04/2026 | 25/04/2026 | Nội bộ FCJ |
+| Ngày | Nội dung thực hiện | Kết quả |
+| --- | --- | --- |
+| Ngày 1 (20/04/2026) | Tạo tài khoản AWS lần đầu. Gặp lỗi tài khoản bị **suspend** nên chưa thể tiếp tục các nhiệm vụ thực hành. | Chưa tạo thành công, xác định được vấn đề chính là bước xác minh tài khoản. |
+| Ngày 2 (21/04/2026) | Tiếp tục xử lý vấn đề tạo tài khoản. Sau nhiều lần thử, áp dụng giải pháp thuê số điện thoại để xác minh, sau đó tài khoản hoạt động bình thường. Bắt đầu làm chương trình 5 nhiệm vụ để nhận 100$ credit và hoàn thành được: **EC2**, **AWS Budgets**, **AWS Lambda**. | Tạo tài khoản thành công và hoàn thành 3/5 nhiệm vụ. |
+| Ngày 3 (22/04/2026) | Làm tiếp các nhiệm vụ còn lại: **RDS Database** và **Amazon Bedrock**. | Hoàn thành đủ 5 nhiệm vụ theo kế hoạch tuần. |
+| Ngày 4 (23/04/2026) | Nghiên cứu cách viết worklog: cấu trúc nội dung, cách mô tả tiến độ theo ngày, cách ghi vấn đề và bài học rút ra. | Nắm được format worklog để bắt đầu viết bài bản. |
+| Ngày 5 (24/04/2026) | Kiểm tra billing và phát hiện bị tính phí **Relational Database Service: 8.78$** dù đã xóa tài nguyên chính. Rà soát lại toàn bộ dịch vụ, phát hiện khi làm Aurora/RDS có thử qua region **N. California** và quên tắt tài nguyên ở đó. Đăng nhập đúng region và xóa ngay. | Dừng phát sinh phí sai, rút kinh nghiệm kiểm tra tài nguyên đa region sau mỗi bài lab. |
+| Ngày 6 (25/04/2026) | Tập viết worklog tuần 1 và đưa nội dung lên GitHub. | Hoàn thành bản worklog tuần đầu và sẵn sàng chuyển sang tuần 2. |
 
 ### Kết quả đạt được tuần 1:
 
-* Nắm rõ cấu trúc chương trình thực tập 12 tuần và cách viết worklog theo template FCJ.
+* Đã tạo được tài khoản AWS sau khi xử lý sự cố suspend ban đầu.
+* Hoàn thành 5 nhiệm vụ nhận credit (EC2, AWS Budgets, AWS Lambda, RDS Database, Amazon Bedrock).
+* Bắt đầu có thói quen theo dõi billing và kiểm tra tài nguyên theo từng region.
+* Hoàn thành bản worklog tuần 1 và làm quen quy trình cập nhật GitHub.
 
-* Đã thiết lập môi trường làm việc local cho báo cáo:
-  * Cấu trúc thư mục `content/` để quản lý từng phần
-  * Cách chỉnh sửa file markdown `_index.vi.md` và `_index.md`
-  * Cách preview site bằng Hugo trước khi push
+### Bài học rút ra:
 
-* Hoàn thành bản nháp Worklog tuần 1 đúng mốc thời gian `20/04/2026 - 25/04/2026`.
-
-* Hiểu luồng làm việc cơ bản của dự án:
-  * Đọc guideline
-  * Viết nội dung theo template
-  * Chạy local để kiểm tra
-  * Chỉnh sửa và hoàn thiện
-
-* Kế hoạch chuyển tiếp tuần 2:
-  * Bắt đầu phần Proposal chi tiết
-  * Hoàn thiện milestone kỹ thuật đầu tiên theo phân công mentor
+* Luôn kiểm tra kỹ trạng thái tài khoản ngay từ bước đăng ký để tránh mất thời gian ở các ngày đầu.
+* Sau mỗi lab liên quan đến RDS/Aurora, cần rà soát tài nguyên ở **tất cả region đã truy cập**, không chỉ region mặc định.
+* Nên bật và theo dõi AWS Budgets sớm để phát hiện chi phí bất thường ngay trong ngày.
+* Worklog càng ghi chi tiết theo ngày thì càng dễ tổng hợp tiến độ và báo cáo với mentor.
