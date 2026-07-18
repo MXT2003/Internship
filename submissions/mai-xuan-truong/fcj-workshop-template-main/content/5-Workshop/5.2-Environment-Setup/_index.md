@@ -79,14 +79,14 @@ python --version   # >= 3.12
 This step should be completed before deploying any AWS resources. A budget alert helps the team monitor spending and avoid unexpected charges.
 
 1. Open AWS Console -> Billing -> Budgets -> Create budget.
-![Prerequisites 1](/images/5-Workshop/IRMS/section-02-001.png)
+![Prerequisites 1](/Internship/images/5-Workshop/IRMS/section-02-001.png)
 2. Select **Cost budget**.
 3. Budget name: `irms-demo-budget`.
 4. Budgeted amount: `$5`.
 5. Alert threshold: `80%`, which means AWS sends an alert when the cost reaches `$4`.
 6. Notification email: use the team lead email or a team mailbox.
 7. Select **Create budget**.
-![Prerequisites 2](/images/5-Workshop/IRMS/section-02-002.png)
+![Prerequisites 2](/Internship/images/5-Workshop/IRMS/section-02-002.png)
 
 #### 5.2.2.4 Project Folder Structure
 

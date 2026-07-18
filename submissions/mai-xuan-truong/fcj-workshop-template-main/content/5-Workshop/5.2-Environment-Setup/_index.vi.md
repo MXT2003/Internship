@@ -62,14 +62,14 @@ python3 --version   # >= 3.12
 #### 5.2.2.3 Thiết lập Budget Alert (BẮT BUỘC làm trước)
 Bước này phải làm trước khi deploy bất kỳ resource nào.
 - Vào AWS Console → Billing → Budgets → Create budget
-![Điều kiện tiên quyết 1](/images/5-Workshop/IRMS/section-02-001.png)
+![Điều kiện tiên quyết 1](/Internship/images/5-Workshop/IRMS/section-02-001.png)
 - Chọn Cost budget
 - Budget name: irms-demo-budget
 - Budgeted amount: $5
 - Alert threshold: 80% (tức là cảnh báo khi vượt $4)
 - Email nhận cảnh báo: điền email của trưởng nhóm  hoặc cả nhóm
 - Chọn Create budget
-![Điều kiện tiên quyết 2](/images/5-Workshop/IRMS/section-02-002.png)
+![Điều kiện tiên quyết 2](/Internship/images/5-Workshop/IRMS/section-02-002.png)
 
 #### 5.2.2.4 Cấu trúc thư mục project
 

@@ -25,7 +25,7 @@ chapter: false
 
 &emsp; **Thời gian thực tập:** Từ ngày 17/04/2026 đến ngày 30/07/2026
 
-<img src="/images/avatar-mxt.png" alt="Ảnh đại diện của bạn" width="380" />
+<img src="/Internship/images/avatar-mxt.png" alt="Ảnh đại diện của bạn" width="380" />
 
 ### Nội dung báo cáo
 
