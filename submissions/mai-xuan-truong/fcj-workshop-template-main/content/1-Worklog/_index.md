@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 1. </b> "
 ---
 
-This section summarizes the 12-week internship progress. The content was edited from Worklog.txt, preserving the original timelines, removing sensitive information, and presenting the work in a professional internship worklog style.
+This worklog summarizes my internship progress from AWS learning labs to the final IRMS project. The timeline keeps my original dates, removes sensitive information, and focuses on my personal contribution within the five-member team.
 
 > From Week 4 onward, the Worklog focuses on my individual contribution within the five-member IRMS team project.
 

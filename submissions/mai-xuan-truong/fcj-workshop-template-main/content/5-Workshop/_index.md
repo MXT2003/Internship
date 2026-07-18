@@ -10,7 +10,7 @@ pre: " <b> 5. </b> "
 
 ### Serverless Cybersecurity Incident Response Management System
 
-This workshop keeps the full implementation content from the Word document and groups it into seven main sections so the sidebar remains compact.
+This workshop presents the IRMS implementation in seven main parts so the sidebar stays compact while the detailed steps remain available inside each page.
 
 #### Contents
 

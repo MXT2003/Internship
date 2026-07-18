@@ -16,7 +16,7 @@
 <text x="53.0" y="334.2" text-anchor="middle" font-size="11" font-family="Arial" font-weight="700" fill="#101828">User (Security</text>
 <text x="53.0" y="348.2" text-anchor="middle" font-size="11" font-family="Arial" font-weight="700" fill="#101828">Analyst / Manager)</text>
 <rect x="817.0" y="402.8" width="76.0" height="42.0" fill="#4285F4" stroke="#ffffff" stroke-width="2" rx="8"/>
-<text x="855.0" y="420.8" text-anchor="middle" font-size="11" font-family="Arial" font-weight="700" fill="#101828">Google Gemini API</text>
+<text x="855.0" y="420.8" text-anchor="middle" font-size="11" font-family="Arial" font-weight="700" fill="#101828">Groq API</text>
 <text x="855.0" y="434.8" text-anchor="middle" font-size="11" font-family="Arial" font-weight="700" fill="#101828">(External — AI</text>
 <text x="855.0" y="448.8" text-anchor="middle" font-size="11" font-family="Arial" font-weight="700" fill="#101828">Service)</text>
 <line x1="520.6" y1="283.1" x2="447.3" y2="344.7" stroke="#344054" stroke-width="1.4" marker-end="url(#arrow)" opacity="0.78"/>

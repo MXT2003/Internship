@@ -877,7 +877,7 @@ Common errors:
 - `Template format error: YAML not well-formed`: usually caused by incorrect indentation. Open `template.yaml` and check the line shown in the error message. Each indentation level should use two spaces, not tabs.
 - `InvalidResourceException`: a resource is referencing another resource that does not exist in the template yet. If it references CloudFront or WAF that will be added later, confirm it with the team.
 
-#### 5.3.6.9 Checklist 6
+#### 5.3.6.8 Checklist 6
 - ✅ Understand the purpose of the two buckets:
 irms-frontend-031577240048-ap-southeast-1  → React SPA through CloudFront
 irms-evidence-031577240048-ap-southeast-1  → evidence files through Lambda

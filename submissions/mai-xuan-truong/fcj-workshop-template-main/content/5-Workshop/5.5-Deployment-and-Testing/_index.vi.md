@@ -587,7 +587,7 @@ aws apigateway get-rest-apis ^
 Mục tiêu
 Chứng minh hệ thống IRMS không chỉ deploy thành công, mà các chức năng chính thật sự chạy được:
 API Gateway → Lambda → DynamoDB / S3 / EventBridge / SNS / Secrets Manager
-11.1 — Verify API Gateway Deployment
+#### 5.5.11.1 Verify API Gateway Deployment
 Mục tiêu
 Xác nhận API Gateway đã deploy thành công, có Stage dev, có Invoke URL và các endpoint đúng.
 Thực hiện
@@ -619,7 +619,7 @@ Hoặc mở trình duyệt:
 https://07frck8bih.execute-api.ap-southeast-1.amazonaws.com/dev/ping
 ![Testing & Validation 7](/images/5-Workshop/IRMS/section-11-007.png)
 
-11.3 – Test Incident CRUD
+#### 5.5.11.3 Test Incident CRUD
 🎯 Mục tiêu
 Kiểm tra toàn bộ quy trình tạo và quản lý Incident trong hệ thống IRMS.
 Sau bài test này, chúng ta sẽ xác nhận:
@@ -904,7 +904,7 @@ Nếu Groq không khả dụng hoặc timeout, Lambda trả về fallback notifi
 
 ![Testing & Validation 28](/images/5-Workshop/IRMS/section-11-028.png)
 
-11.6 – Test Generate Report
+#### 5.5.11.6 Test Generate Report
 **Bước 1: Test GET /reports**
 curl.exe ^
 https://07frck8bih.execute-api.ap-southeast-1.amazonaws.com/dev/reports ^
@@ -922,7 +922,7 @@ https://07frck8bih.execute-api.ap-southeast-1.amazonaws.com/dev/reports/generate
 -d "{\"incidentId\":\"INC-53DB6458\"}"
 ![Testing & Validation 30](/images/5-Workshop/IRMS/section-11-030.png)
 
-11.7 – Test EventBridge Alert Automation
+#### 5.5.11.7 Test EventBridge Alert Automation
 Phần này kiểm tra luồng tự động:
 Simulated GuardDuty Event
 ↓
@@ -969,7 +969,7 @@ aws logs describe-log-groups ^
 --region ap-southeast-1 ^
 --profile irms-shared
 ![Testing & Validation 34](/images/5-Workshop/IRMS/section-11-034.png)
-11.8 – CloudWatch Logs & Final Validation.
+#### 5.5.11.8 CloudWatch Logs and Final Validation
 Chạy các lệnh kiểm tra tổng thể:
 aws cloudformation describe-stacks ^
 --stack-name irms-serverless ^

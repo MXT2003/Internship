@@ -218,7 +218,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="gemini" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#4285F4;strokeColor=#ffffff;fontColor=#FFFFFF;fontSize=15;fontStyle=1;verticalAlign=middle;align=center;fontFamily=Times New Roman;" value="Google Gemini API&#xa;(External — AI Service)" vertex="1">
+        <mxCell id="groq" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#4285F4;strokeColor=#ffffff;fontColor=#FFFFFF;fontSize=15;fontStyle=1;verticalAlign=middle;align=center;fontFamily=Times New Roman;" value="Groq API&#xa;(External — AI Service)" vertex="1">
           <mxGeometry height="80" width="200" x="2150" y="1060" as="geometry" />
         </mxCell>
         <mxCell id="geminiLabel" parent="1" style="text;html=1;align=center;verticalAlign=top;fontSize=15;fontColor=#888888;whiteSpace=wrap;fontFamily=Times New Roman;fontStyle=1" value="⚠ External API&#xa;key lưu trong Secrets Manager" vertex="1">

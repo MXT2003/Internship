@@ -752,7 +752,7 @@ Nếu thấy:
 Error: [InvalidResourceException] Resource 'XYZ' not found
 → Một resource đang tham chiếu đến resource chưa có trong template. Bình thường nếu là tham chiếu CloudFront/WAF (sẽ thêm ở sau), cần hỏi lại team.
 
-#### 5.3.6.9 Checklist 6
+#### 5.3.6.8 Checklist 6
 - ✅ Hiểu rõ mục đích 2 bucket:
 irms-frontend-031577240048-ap-southeast-1  → React SPA, qua CloudFront
 irms-evidence-031577240048-ap-southeast-1  → file bằng chứng, qua Lambda
