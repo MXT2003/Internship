@@ -8,9 +8,9 @@ pre: " <b> 4.2. </b> "
 
 ## DATA DRIVEN, AI RISEN
 
-**Time:** June 27, 2026
-**Location:** Hybrid event on floors 26 and 36, also livestreamed on YouTube
-**Role:** Online attendee
+- **Time:** June 27, 2026
+- **Location:** Hybrid event on floors 26 and 36, also livestreamed on YouTube
+- **Role:** Online attendee
 
 ## Event Objectives
 

@@ -12,24 +12,24 @@ During the internship, I participated in three events related to AI, AWS, cloud 
 
 ### [Event 1 - Saturday Topic: Self-Optimization and Mastering AI Technology](4.1-Event1/)
 
-**Time:** Saturday, May 09, 2026
-**Location:** Offline participation at the event venue
-**Role:** Offline attendee
-**Main value:** I learned how to structure and optimize prompts instead of using AI only as a simple chatbot.
+- **Time:** Saturday, May 09, 2026
+- **Location:** Offline participation at the event venue
+- **Role:** Offline attendee
+- **Main value:** I learned how to structure and optimize prompts instead of using AI only as a simple chatbot.
 
 ### [Event 2 - DATA DRIVEN, AI RISEN](4.2-Event2/)
 
-**Time:** June 27, 2026
-**Location:** Hybrid event on floors 26 and 36, also livestreamed on YouTube
-**Role:** Online attendee
-**Main value:** AI does not fully replace people; it amplifies capable engineers and specialists.
+- **Time:** June 27, 2026
+- **Location:** Hybrid event on floors 26 and 36, also livestreamed on YouTube
+- **Role:** Online attendee
+- **Main value:** AI does not fully replace people; it amplifies capable engineers and specialists.
 
 ### [Event 3 - AWS: Enterprise Cloud Architectures and Industry Application featuring Cloud Kinetics & Renova Cloud](4.3-Event3/)
 
-**Time:** Morning, July 04, 2026
-**Location:** Study Tour at AWS Vietnam for Swinburne Vietnam students
-**Role:** Online attendee
-**Main value:** Career growth can be viewed through Capability x Visibility x Consistency.
+- **Time:** Morning, July 04, 2026
+- **Location:** Study Tour at AWS Vietnam for Swinburne Vietnam students
+- **Role:** Online attendee
+- **Main value:** Career growth can be viewed through Capability x Visibility x Consistency.
 
 ## Summary
 

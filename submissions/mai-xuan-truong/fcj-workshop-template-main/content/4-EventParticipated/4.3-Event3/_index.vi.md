@@ -8,9 +8,9 @@ pre: " <b> 4.3. </b> "
 
 ## AWS: Enterprise Cloud Architectures and Industry Application featuring Cloud Kinetics & Renova Cloud
 
-**Thời gian:** Buổi sáng, ngày 04/07/2026
-**Địa điểm:** Study Tour tại AWS Việt Nam dành cho sinh viên Swinburne Việt Nam (TP.HCM và Cần Thơ)
-**Vai trò:** Người tham dự (online)
+- **Thời gian:** Buổi sáng, ngày 04/07/2026
+- **Địa điểm:** Study Tour tại AWS Việt Nam dành cho sinh viên Swinburne Việt Nam (TP.HCM và Cần Thơ)
+- **Vai trò:** Người tham dự (online)
 
 ## Mục đích của sự kiện
 

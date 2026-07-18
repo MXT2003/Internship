@@ -8,9 +8,9 @@ pre: " <b> 4.1. </b> "
 
 ## Saturday Topic: Self-Optimization and Mastering AI Technology
 
-**Time:** Saturday, May 09, 2026
-**Location:** Offline participation at the event venue
-**Role:** Offline attendee
+- **Time:** Saturday, May 09, 2026
+- **Location:** Offline participation at the event venue
+- **Role:** Offline attendee
 
 ## Event Objectives
 
