@@ -9,7 +9,8 @@ pre: " <b> 4.3. </b> "
 ## AWS: Enterprise Cloud Architectures and Industry Application featuring Cloud Kinetics & Renova Cloud
 
 - **Thời gian:** Buổi sáng, ngày 04/07/2026
-- **Địa điểm:** Study Tour tại AWS Việt Nam, tầng 26, tòa nhà Bitexco, dành cho sinh viên Swinburne Việt Nam
+- **Địa điểm:** Tổ chức trực tiếp tại tầng 26, tòa nhà Bitexco
+- **Thành phần tham dự:** Có thêm sự góp mặt của sinh viên Swinburne Việt Nam, bao gồm cơ sở Cần Thơ.
 - **Vai trò:** Người tham dự (online)
 
 ## Mục đích của sự kiện

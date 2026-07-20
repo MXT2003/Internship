@@ -27,7 +27,8 @@ During the internship, I participated in three events related to AI, AWS, cloud 
 ### [Event 3 - AWS: Enterprise Cloud Architectures and Industry Application featuring Cloud Kinetics & Renova Cloud](4.3-Event3/)
 
 - **Time:** Morning, July 04, 2026
-- **Location:** Study Tour held at AWS Vietnam on floor 26 of Bitexco Financial Tower
+- **Location:** Hybrid event held on floor 26 of Bitexco Financial Tower
+- **Participants:** The event also included students from Swinburne Vietnam, including the Can Tho campus.
 - **Role:** Online attendee
 - **Main value:** Career growth can be viewed through Capability x Visibility x Consistency.
 
