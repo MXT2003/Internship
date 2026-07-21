@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 5.2. </b> "
 ---
 
-## 2. Environment Setup
+## 5.2. Environment Setup
 
 #### Contents
 

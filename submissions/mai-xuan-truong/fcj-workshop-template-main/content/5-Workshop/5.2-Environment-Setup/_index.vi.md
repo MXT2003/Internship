@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 5.2. </b> "
 ---
 
-## 2. Chuẩn bị môi trường
+## 5.2. Chuẩn bị môi trường
 
 #### Nội dung
 

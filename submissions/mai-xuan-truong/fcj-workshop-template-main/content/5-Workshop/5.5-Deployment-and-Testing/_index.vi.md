@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 5.5. </b> "
 ---
 
-## 5. Triển khai và kiểm thử
+## 5.5. Triển khai và kiểm thử
 
 #### Nội dung
 

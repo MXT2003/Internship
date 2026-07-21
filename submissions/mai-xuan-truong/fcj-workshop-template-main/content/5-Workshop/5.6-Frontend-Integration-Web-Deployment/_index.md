@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 5.6. </b> "
 ---
 
-## 6. Frontend Integration and Web Deployment
+## 5.6. Frontend Integration and Web Deployment
 
 #### Contents
 

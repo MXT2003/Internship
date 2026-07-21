@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 5.3. </b> "
 ---
 
-## 3. Infrastructure Configuration
+## 5.3. Infrastructure Configuration
 
 #### Contents
 

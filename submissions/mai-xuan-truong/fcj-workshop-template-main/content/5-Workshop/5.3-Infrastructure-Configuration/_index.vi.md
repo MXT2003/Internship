@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 5.3. </b> "
 ---
 
-## 3. Cấu hình hạ tầng
+## 5.3. Cấu hình hạ tầng
 
 #### Nội dung
 

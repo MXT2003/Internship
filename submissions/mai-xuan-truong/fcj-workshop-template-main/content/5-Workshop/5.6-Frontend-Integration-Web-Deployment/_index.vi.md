@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 5.6. </b> "
 ---
 
-## 6. Tích hợp frontend và triển khai web
+## 5.6. Tích hợp frontend và triển khai web
 
 #### Nội dung
 

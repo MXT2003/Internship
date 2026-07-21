@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 5.5. </b> "
 ---
 
-## 5. Deployment and Testing
+## 5.5. Deployment and Testing
 
 #### Contents
 

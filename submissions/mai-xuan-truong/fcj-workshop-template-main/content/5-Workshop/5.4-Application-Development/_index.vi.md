@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 5.4. </b> "
 ---
 
-## 4. Phát triển ứng dụng
+## 5.4. Phát triển ứng dụng
 
 #### Nội dung
 

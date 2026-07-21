@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 5.7. </b> "
 ---
 
-## 7. Project Demo and Testing
+## 5.7. Project Demo and Testing
 
 #### Contents
 

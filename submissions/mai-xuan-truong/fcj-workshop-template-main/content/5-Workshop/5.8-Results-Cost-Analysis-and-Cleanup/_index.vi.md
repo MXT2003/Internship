@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 5.8. </b> "
 ---
 
-## 8. Kết quả, chi phí và dọn dẹp
+## 5.8. Kết quả, chi phí và dọn dẹp
 
 #### Nội dung
 
