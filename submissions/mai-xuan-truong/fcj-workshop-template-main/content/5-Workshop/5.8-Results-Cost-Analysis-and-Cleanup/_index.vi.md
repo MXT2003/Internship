@@ -46,42 +46,43 @@ Toàn bộ hệ thống được triển khai theo kiến trúc Serverless trên
 | AWS SAM | Infrastructure as Code |
 | AWS IAM | Permission Management |
 
-#### 5.8.13.3 Cost Analysis
-Trong quá trình phát triển và triển khai hệ thống, nhóm sử dụng AWS Billing & Cost Management để theo dõi mức sử dụng tài nguyên. Toàn bộ dịch vụ được triển khai trong AWS Free Tier, do đó chi phí phát sinh gần như bằng 0 USD.
-Bảng dưới đây tổng hợp mức sử dụng chính của các dịch vụ.
+#### 5.8.13.3 Phân tích chi phí
 
-| AWS Service | Usage | Cost (USD) |
-| --- | --- | --- |
-| Amazon API Gateway | 35 Requests | 0.00 |
-| AWS Lambda | 33 Invocations, 6.381 GB-Seconds | 0.00 |
-| Amazon DynamoDB | 36 Read Units, 25 Write Units | 0.00 |
-| Amazon Cognito | 4 Monthly Active Users (MAU) | 0.00 |
-| Amazon S3 | 69 PUT/LIST, 280 GET Requests | 0.00 |
-| Amazon CloudWatch | Logs & Metrics | 0.00 |
-| Amazon EventBridge | 2 Events | 0.00 |
-| Amazon SNS | 22 Requests | 0.00 |
-| AWS CloudFormation | 66 Operations | 0.00 |
-| AWS X-Ray | 68 Traces | 0.00 |
-| AWS KMS | 2 Requests | 0.00 |
+Trong quá trình phát triển và triển khai IRMS, tôi sử dụng AWS Billing & Cost Management để kiểm tra chi phí theo từng dịch vụ. Báo cáo billing cho thấy workload demo vẫn nằm gần như hoàn toàn trong Free Tier. Phần lớn dịch vụ có chi phí bằng **USD 0.00**.
 
-Secrets Manager
-Dự án sử dụng AWS Secrets Manager để lưu Groq API key. Frontend không chứa API key.
+Điểm cần lưu ý là **AWS Secrets Manager** có ghi nhận chi phí **USD 0.17** cho secret lưu API key, nhưng khoản này được bù bởi AWS Free Tier/Credit **(USD 0.17)**. Vì vậy, chi phí AWS thực tế sau credit vẫn là **USD 0.00**.
 
-| Service | Usage | Cost |
-| --- | --- | --- |
-| AWS Secrets Manager | 1 Secret | USD 0.02 |
+| Dịch vụ AWS | Mức sử dụng chính ghi nhận | Amount (USD) | Ghi chú |
+| --- | --- | --- | --- |
+| Amazon API Gateway | 956 requests | 0.00 | Nằm trong free tier request |
+| AWS Lambda | 501 requests, 32.507 GB-seconds | 0.00 | Nằm trong free tier Lambda |
+| Amazon DynamoDB | 677 read request units, 44 write request units | 0.00 | Pay-per-request, mức demo rất nhỏ |
+| Amazon Cognito | 4 monthly active users | 0.00 | Tài khoản demo cho Admin, Manager, Analyst, Auditor |
+| Amazon S3 | 250 PUT/COPY/POST/LIST, 1,612 GET/other requests, 0.131 GB-Mo storage | 0.00 | Frontend hosting và evidence storage |
+| Amazon CloudFront | 187 HTTPS requests, 8 invalidation URLs, khoảng 0.003 GB data out | 0.00 | Nằm trong global free tier |
+| Amazon CloudWatch | 0.122 metrics, 6 GetMetricData metrics, log usage trong free tier | 0.00 | Logs, metrics và kiểm tra vận hành |
+| Amazon EventBridge | 2 64K chunks | 0.00 | Event routing / scheduler |
+| Amazon SNS | 79 requests | 0.00 | Notification test |
+| AWS CloudFormation | 279 resource handler operations | 0.00 | Triển khai stack bằng IaC |
+| AWS KMS | 29 requests tổng ở các region | 0.00 | KMS free tier request |
+| AWS X-Ray | 699 traces stored | 0.00 | Trace phục vụ kiểm thử |
+| AWS Secrets Manager | 0.426 secret-month, 72 API requests | 0.17 | Được bù bởi AWS Free Tier/Credit |
 
-Giá trị này được ghi nhận như một yếu tố chi phí nhỏ ở quy mô demo. Chi phí thực tế phụ thuộc account, region, thời gian lưu và tài nguyên còn hoạt động sau khi test.
+Một số dòng như AWS Glue request xuất hiện trong billing ở nhiều region nhưng đều có amount **USD 0.00** và không phải cost driver chính của IRMS. Vì vậy, phần tổng kết chi phí tập trung vào các dịch vụ thật sự được dùng trong kiến trúc IRMS.
 
-#### 5.8.13.4 AI Service Cost
+#### 5.8.13.4 Chi phí AI Service
 
-Final implementation sử dụng Groq cho workload AI trong giai đoạn development/demo.
+Phiên bản cuối sử dụng Groq cho workload AI trong giai đoạn development/demo. API key được lưu trong AWS Secrets Manager và chỉ được Lambda đọc khi cần gọi AI provider. Frontend không chứa API key.
 
 | Hạng mục | Giá trị |
 | --- | --- |
 | Provider hiện tại | Groq |
 | Model | `llama-3.1-8b-instant` |
-| Cost model | Groq Free Tier cho development/demo |
+| Mô hình chi phí | Groq Free Tier cho development/demo |
+| Dịch vụ AWS liên quan | AWS Secrets Manager |
+| Gross cost của Secrets Manager | USD 0.17 |
+| Khoản bù Free Tier/Credit | (USD 0.17) |
+| Net cost của Secrets Manager | USD 0.00 |
 | Provider tương lai | Amazon Bedrock |
 
 Trong phạm vi dự án:
@@ -91,24 +92,27 @@ Trong phạm vi dự án:
 - Không xử lý dữ liệu dung lượng lớn.
 - Nếu Groq không khả dụng, Lambda trả về rule-based fallback response.
 
-Chi phí AWS chủ yếu đến từ Lambda, API Gateway, CloudFront, S3, DynamoDB và Secrets Manager. Amazon Bedrock chỉ phát sinh inference charge nếu được bật trong phiên bản tương lai.
+Chi phí AI hiện tại không đến từ Groq vì dự án dùng free tier cho development/demo. Trên AWS, cost driver liên quan đến AI chủ yếu là Secrets Manager do cần lưu API key an toàn. Amazon Bedrock chưa được bật trong phiên bản cuối, nên chưa phát sinh inference charge.
 
-#### 5.8.13.5 Total Project Cost
+#### 5.8.13.5 Tổng chi phí dự án
 
-| Category | Cost |
-| --- | --- |
-| AWS Services | USD 0.00 |
-| AWS Secrets Manager | Chi phí nhỏ theo số lượng secret/tháng |
-| Groq API | USD 0.00, Free Tier cho development/demo |
-| Amazon Bedrock | USD 0.00, chưa bật |
+| Hạng mục | Gross Cost | Credit / Free Tier | Net Cost |
+| --- | --- | --- | --- |
+| AWS services trong Free Tier | USD 0.00 | USD 0.00 | USD 0.00 |
+| AWS Secrets Manager | USD 0.17 | (USD 0.17) | USD 0.00 |
+| Groq API | USD 0.00 | Free Tier | USD 0.00 |
+| Amazon Bedrock | USD 0.00 | Chưa bật | USD 0.00 |
+| **Tổng thực tế** | **USD 0.17** | **(USD 0.17)** | **USD 0.00** |
 
 ```text
-Primary AWS cost drivers : Lambda, API Gateway, CloudFront, S3, DynamoDB, Secrets Manager, CloudWatch
-Current AI provider      : Groq cho development/demo
-Future AI provider       : Amazon Bedrock nếu được bật sau này
+Primary AWS usage       : Lambda, API Gateway, CloudFront, S3, DynamoDB, Cognito, CloudWatch
+Small gross cost driver : Secrets Manager (USD 0.17 before credit)
+Current AI provider     : Groq for development/demo usage
+Future AI provider      : Amazon Bedrock only if enabled
+Final net AWS cost      : USD 0.00 after Free Tier/Credit
 ```
 
-Demo được giữ ở mức cost-aware bằng serverless services, kiểm tra tài nguyên đang chạy và cleanup tài nguyên không còn cần thiết.
+Demo được giữ ở mức cost-aware bằng cách dùng serverless services, theo dõi billing sau khi deploy, kiểm tra các tài nguyên đang chạy và cleanup tài nguyên không còn cần thiết.
 
 #### 5.8.13.6 Resource Cleanup
 Sau khi hoàn thành workshop hoặc quá trình đánh giá, cần dọn dẹp tài nguyên để tránh phát sinh chi phí ngoài ý muốn.

@@ -47,39 +47,41 @@ The whole system was deployed using a serverless architecture on AWS.
 
 #### 5.8.13.3 Cost Analysis
 
-During development and deployment, the team used AWS Billing & Cost Management to monitor resource usage. The workload stayed within the AWS Free Tier for the demo scale, so the actual AWS charge was almost zero.
+During IRMS development and deployment, I used AWS Billing & Cost Management to review cost by service. The billing report shows that the demo workload stayed almost entirely within the AWS Free Tier. Most services ended with **USD 0.00** charges.
 
-| AWS Service | Usage | Cost (USD) |
-| --- | --- | --- |
-| Amazon API Gateway | 35 requests | 0.00 |
-| AWS Lambda | 33 invocations, 6.381 GB-seconds | 0.00 |
-| Amazon DynamoDB | 36 read units, 25 write units | 0.00 |
-| Amazon Cognito | 4 monthly active users (MAU) | 0.00 |
-| Amazon S3 | 69 PUT/LIST, 280 GET requests | 0.00 |
-| Amazon CloudWatch | Logs and metrics | 0.00 |
-| Amazon EventBridge | 2 events | 0.00 |
-| Amazon SNS | 22 requests | 0.00 |
-| AWS CloudFormation | 66 operations | 0.00 |
-| AWS X-Ray | 68 traces | 0.00 |
-| AWS KMS | 2 requests | 0.00 |
+The only item with a small gross charge was **AWS Secrets Manager**, which recorded **USD 0.17** for the secret used to store the AI provider key. This amount was offset by AWS Free Tier/Credit **(USD 0.17)**, so the final net AWS cost remained **USD 0.00**.
 
-The project also used AWS Secrets Manager to store the Groq API key. No API key exists in the frontend.
+| AWS Service | Main usage recorded | Amount (USD) | Note |
+| --- | --- | --- | --- |
+| Amazon API Gateway | 956 requests | 0.00 | Within request free tier |
+| AWS Lambda | 501 requests, 32.507 GB-seconds | 0.00 | Within Lambda free tier |
+| Amazon DynamoDB | 677 read request units, 44 write request units | 0.00 | Very small demo-scale pay-per-request usage |
+| Amazon Cognito | 4 monthly active users | 0.00 | Demo users for Admin, Manager, Analyst, and Auditor |
+| Amazon S3 | 250 PUT/COPY/POST/LIST, 1,612 GET/other requests, 0.131 GB-Mo storage | 0.00 | Frontend hosting and evidence storage |
+| Amazon CloudFront | 187 HTTPS requests, 8 invalidation URLs, about 0.003 GB data out | 0.00 | Within the global free tier |
+| Amazon CloudWatch | 0.122 metrics, 6 GetMetricData metrics, log usage within free tier | 0.00 | Logs, metrics, and operational checks |
+| Amazon EventBridge | 2 64K chunks | 0.00 | Event routing / scheduler |
+| Amazon SNS | 79 requests | 0.00 | Notification testing |
+| AWS CloudFormation | 279 resource handler operations | 0.00 | Stack deployment using IaC |
+| AWS KMS | 29 total requests across regions | 0.00 | KMS request free tier |
+| AWS X-Ray | 699 traces stored | 0.00 | Tracing for testing |
+| AWS Secrets Manager | 0.426 secret-month, 72 API requests | 0.17 | Offset by AWS Free Tier/Credit |
 
-| Service | Usage | Cost |
-| --- | --- | --- |
-| AWS Secrets Manager | 1 secret | USD 0.02 |
-
-This value is documented as a small demo-scale Secrets Manager cost driver. Actual billing depends on the active account, region, retention period, and whether resources remain after testing.
+Some billing lines such as AWS Glue requests appeared across multiple regions with **USD 0.00** amount and were not primary IRMS cost drivers. For that reason, the summary focuses on the services actually used by the IRMS architecture.
 
 #### 5.8.13.4 AI Service Cost
 
-The final implementation uses Groq for development and demo AI workloads.
+The final implementation uses Groq for development and demo AI workloads. The API key is stored in AWS Secrets Manager and is read only by Lambda when calling the AI provider. No API key exists in the frontend.
 
 | Item | Value |
 | --- | --- |
 | Current provider | Groq |
 | Model | `llama-3.1-8b-instant` |
 | Cost model used | Groq Free Tier for development/demo |
+| Related AWS service | AWS Secrets Manager |
+| Secrets Manager gross cost | USD 0.17 |
+| Free Tier/Credit offset | (USD 0.17) |
+| Net Secrets Manager cost | USD 0.00 |
 | Future optional provider | Amazon Bedrock |
 
 In this project:
@@ -89,24 +91,27 @@ In this project:
 - No large-volume data processing was performed.
 - If Groq is unavailable, the Lambda returns a rule-based fallback response.
 
-AWS costs remain dominated by Lambda, API Gateway, CloudFront, S3, DynamoDB, and Secrets Manager. Amazon Bedrock would incur inference charges only if it is enabled in a future version.
+The current AI cost does not come from Groq because the project used its free tier for development/demo. On AWS, the AI-related cost driver is mainly Secrets Manager because it stores the provider key safely. Amazon Bedrock was not enabled in the final version, so no Bedrock inference charge was generated.
 
 #### 5.8.13.5 Total Project Cost
 
-| Category | Cost |
-| --- | --- |
-| AWS Services | USD 0.00 |
-| AWS Secrets Manager | Small per-secret monthly cost driver |
-| Groq API | USD 0.00, Free Tier for development/demo |
-| Amazon Bedrock | USD 0.00, not enabled |
+| Category | Gross Cost | Credit / Free Tier | Net Cost |
+| --- | --- | --- | --- |
+| AWS services within Free Tier | USD 0.00 | USD 0.00 | USD 0.00 |
+| AWS Secrets Manager | USD 0.17 | (USD 0.17) | USD 0.00 |
+| Groq API | USD 0.00 | Free Tier | USD 0.00 |
+| Amazon Bedrock | USD 0.00 | Not enabled | USD 0.00 |
+| **Actual total** | **USD 0.17** | **(USD 0.17)** | **USD 0.00** |
 
 ```text
-Primary AWS cost drivers : Lambda, API Gateway, CloudFront, S3, DynamoDB, Secrets Manager, CloudWatch
-Current AI provider      : Groq for development/demo usage
-Future AI provider       : Amazon Bedrock only if enabled
+Primary AWS usage       : Lambda, API Gateway, CloudFront, S3, DynamoDB, Cognito, CloudWatch
+Small gross cost driver : Secrets Manager (USD 0.17 before credit)
+Current AI provider     : Groq for development/demo usage
+Future AI provider      : Amazon Bedrock only if enabled
+Final net AWS cost      : USD 0.00 after Free Tier/Credit
 ```
 
-The demo was kept cost-aware by using serverless services, monitoring active resources, and cleaning up resources that were no longer needed.
+The demo was kept cost-aware by using serverless services, checking billing after deployment, reviewing active resources, and cleaning up resources that were no longer needed.
 
 #### 5.8.13.6 Resource Cleanup
 
