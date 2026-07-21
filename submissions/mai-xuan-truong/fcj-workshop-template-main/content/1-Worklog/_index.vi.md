@@ -8,8 +8,6 @@ pre: " <b> 1. </b> "
 
 Phần này tổng hợp quá trình thực tập từ giai đoạn học AWS, làm lab đến khi hoàn thiện dự án IRMS. Timeline được chỉnh theo ngày làm việc và kết thúc vào ngày 21/07/2026 theo tiến độ thực tế.
 
-> Công việc dự án IRMS bắt đầu từ tuần 11, tức tuần có ngày 01/07. Các tuần trước đó tập trung vào học AWS, thực hành lab và chuẩn bị kiến thức.
-
 - [Tuần 1: 20/4 → 24/4 (5 ngày làm việc)](1.1-week1/)
 - [Tuần 2: 27/4 → 1/5 (5 ngày làm việc)](1.2-week2/)
 - [Tuần 3: 4/5 → 8/5 (5 ngày làm việc)](1.3-week3/)

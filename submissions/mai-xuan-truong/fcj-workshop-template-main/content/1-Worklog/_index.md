@@ -8,8 +8,6 @@ pre: " <b> 1. </b> "
 
 This worklog summarizes my internship progress from AWS learning labs to the final IRMS project. The timeline reflects working days and ends on July 21, 2026 according to the actual progress.
 
-> The IRMS project work starts from Week 11, the week that includes July 1. Earlier weeks focus on AWS learning, hands-on labs, and preparation.
-
 - [Week 1: 20/4 → 24/4 (5 working days)](1.1-week1/)
 - [Week 2: 27/4 → 1/5 (5 working days)](1.2-week2/)
 - [Week 3: 4/5 → 8/5 (5 working days)](1.3-week3/)
