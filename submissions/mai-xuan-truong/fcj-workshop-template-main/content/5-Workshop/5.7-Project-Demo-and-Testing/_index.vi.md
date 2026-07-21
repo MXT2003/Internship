@@ -27,11 +27,18 @@ Sử dụng URL frontend đã deploy qua CloudFront ở phần trước.
 | Mục | Giá trị |
 | --- | --- |
 | Link dự án | `https://<cloudfront-distribution-domain>` |
-| Vai trò test | Security Analyst |
-| Tài khoản test | `analyst@example.com` |
-| Mật khẩu test | `YOUR_TEMP_PASSWORD` |
+| Luồng test chính | Security Analyst |
 
-> Không publish mật khẩu thật hoặc credential dùng lâu dài trong workshop. Khi demo, thay `YOUR_TEMP_PASSWORD` bằng mật khẩu tạm thời của Cognito hoặc tạo một tài khoản analyst riêng chỉ dùng để test.
+Các tài khoản demo có thể dùng để kiểm thử:
+
+| Vai trò | Tài khoản | Mật khẩu |
+| --- | --- | --- |
+| Admin | `admin@irms-demo.com` | Cung cấp riêng khi demo |
+| Manager | `manager@irms-demo.com` | Cung cấp riêng khi demo |
+| Analyst | `analyst@irms-demo.com` | Cung cấp riêng khi demo |
+| Auditor | `auditor@irms-demo.com` | Cung cấp riêng khi demo |
+
+> Trong phần hướng dẫn này, luồng kiểm thử chính sử dụng tài khoản Analyst. Các vai trò còn lại có thể đăng nhập để tự kiểm tra thêm quyền truy cập và hành vi của hệ thống. Để an toàn, mật khẩu demo không được đăng công khai trên website và nên được gửi riêng khi cần kiểm thử.
 
 ### 5.7.2 Vai trò trong dự án
 
@@ -45,7 +52,7 @@ Sử dụng URL frontend đã deploy qua CloudFront ở phần trước.
 
 ### 5.7.3 Kiểm tra đăng nhập và dashboard
 
-Mở link dự án trên trình duyệt và đăng nhập bằng tài khoản Security Analyst.
+Mở link dự án trên trình duyệt và đăng nhập bằng tài khoản Analyst demo ở bảng trên.
 
 ![Màn hình đăng nhập IRMS](/Internship/images/5-Workshop/IRMS-demo-test/demo-test-06.png)
 
@@ -157,3 +164,4 @@ Kết quả mong đợi:
 - AI Chat trả lời câu hỏi của analyst dựa trên incident context.
 - Chat chỉ truy xuất các incident mà Security Analyst đã xác thực được phép xem.
 - Phản hồi AI được dùng làm hướng dẫn, không tự động thay đổi dữ liệu incident.
+

@@ -27,11 +27,18 @@ Use the deployed frontend URL from the CloudFront distribution created in the pr
 | Item | Value |
 | --- | --- |
 | Project URL | `https://<cloudfront-distribution-domain>` |
-| Test role | Security Analyst |
-| Test username | `analyst@example.com` |
-| Test password | `YOUR_TEMP_PASSWORD` |
+| Main test flow | Security Analyst |
 
-> Do not publish real passwords or permanent credentials in the workshop. Replace the password with the temporary Cognito password provided by the project owner or create a new analyst account for demo testing.
+Demo users for testing:
+
+| Role | Username | Password |
+| --- | --- | --- |
+| Admin | `admin@irms-demo.com` | Provided separately during demo |
+| Manager | `manager@irms-demo.com` | Provided separately during demo |
+| Analyst | `analyst@irms-demo.com` | Provided separately during demo |
+| Auditor | `auditor@irms-demo.com` | Provided separately during demo |
+
+> The guided workflow in this section uses the Analyst account. Other roles can be used for additional exploration and permission checks. For safety, demo passwords are not published in the public workshop site and should be shared separately only when testing is needed.
 
 ### 5.7.2 Project roles
 
@@ -45,7 +52,7 @@ Use the deployed frontend URL from the CloudFront distribution created in the pr
 
 ### 5.7.3 Login and dashboard check
 
-Open the project URL in the browser and sign in with the Security Analyst test account.
+Open the project URL in the browser and sign in with the Analyst demo account listed above.
 
 ![IRMS login screen](/Internship/images/5-Workshop/IRMS-demo-test/demo-test-06.png)
 
@@ -157,3 +164,4 @@ Expected result:
 - AI Chat answers the analyst question using the selected incident as context.
 - The chat retrieves only incidents that the authenticated Security Analyst is authorized to access.
 - The response is used as guidance and does not automatically change incident records.
+
