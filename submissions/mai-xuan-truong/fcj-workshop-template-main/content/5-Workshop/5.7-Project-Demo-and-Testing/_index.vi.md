@@ -29,14 +29,14 @@ Sử dụng URL frontend đã deploy qua CloudFront ở phần trước.
 | Link dự án | [https://d1cdyvxfzvnsxg.cloudfront.net/](https://d1cdyvxfzvnsxg.cloudfront.net/) |
 | Luồng test chính | Security Analyst |
 
-Các tài khoản demo có thể dùng để kiểm thử:
+Các tài khoản demo có thể dùng để kiểm thử. Luồng hướng dẫn chính sử dụng tài khoản Analyst; nếu muốn test thêm các vai trò khác, vui lòng liên hệ để được cấp thông tin đăng nhập:
 
 | Vai trò | Tài khoản | Mật khẩu |
 | --- | --- | --- |
-| Admin | `admin@irms-demo.com` | Cung cấp riêng khi demo |
-| Manager | `manager@irms-demo.com` | Cung cấp riêng khi demo |
-| Analyst | `analyst@irms-demo.com` | Cung cấp riêng khi demo |
-| Auditor | `auditor@irms-demo.com` | Cung cấp riêng khi demo |
+| Admin | `admin@irms-demo.com` | Liên hệ để được cấp khi cần test |
+| Manager | `manager@irms-demo.com` | Liên hệ để được cấp khi cần test |
+| Analyst | `analyst@irms-demo.com` | Liên hệ để được cấp khi cần test |
+| Auditor | `auditor@irms-demo.com` | Liên hệ để được cấp khi cần test |
 
 ### 5.7.2 Vai trò trong dự án
 

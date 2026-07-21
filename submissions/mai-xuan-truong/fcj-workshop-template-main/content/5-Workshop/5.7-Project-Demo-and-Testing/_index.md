@@ -29,14 +29,14 @@ Use the deployed frontend URL from the CloudFront distribution created in the pr
 | Project URL | [https://d1cdyvxfzvnsxg.cloudfront.net/](https://d1cdyvxfzvnsxg.cloudfront.net/) |
 | Main test flow | Security Analyst |
 
-Demo users for testing:
+Demo users for testing. The guided workflow uses the Analyst account; to test other roles, contact the owner for login details:
 
 | Role | Username | Password |
 | --- | --- | --- |
-| Admin | `admin@irms-demo.com` | Provided separately during demo |
-| Manager | `manager@irms-demo.com` | Provided separately during demo |
-| Analyst | `analyst@irms-demo.com` | Provided separately during demo |
-| Auditor | `auditor@irms-demo.com` | Provided separately during demo |
+| Admin | `admin@irms-demo.com` | Contact the owner for testing access |
+| Manager | `manager@irms-demo.com` | Contact the owner for testing access |
+| Analyst | `analyst@irms-demo.com` | Contact the owner for testing access |
+| Auditor | `auditor@irms-demo.com` | Contact the owner for testing access |
 
 ### 5.7.2 Project roles
 
