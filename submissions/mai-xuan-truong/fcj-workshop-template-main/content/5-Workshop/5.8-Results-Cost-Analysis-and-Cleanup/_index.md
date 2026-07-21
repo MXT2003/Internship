@@ -1,20 +1,20 @@
 ---
 title: "Results, Cost Analysis, and Cleanup"
 date: 2026-07-17
-weight: 7
+weight: 8
 chapter: false
-pre: " <b> 5.7. </b> "
+pre: " <b> 5.8. </b> "
 ---
 
-## 7. Results, Cost Analysis, and Cleanup
+## 8. Results, Cost Analysis, and Cleanup
 
 #### Contents
 
-- 5.7.13 Results, Cost Analysis, and Cleanup
+- 5.8.13 Results, Cost Analysis, and Cleanup
 
-### 5.7.13 Results, Cost Estimation and Resource Cleanup
+### 5.8.13 Results, Cost Estimation and Resource Cleanup
 
-#### 5.7.13.1 Project Results
+#### 5.8.13.1 Project Results
 
 After deployment and testing, the IRMS system completed the main functions planned for the workshop:
 
@@ -30,7 +30,7 @@ After deployment and testing, the IRMS system completed the main functions plann
 
 The whole system was deployed using a serverless architecture on AWS.
 
-#### 5.7.13.2 AWS Services Used
+#### 5.8.13.2 AWS Services Used
 
 | Service | Purpose |
 | --- | --- |
@@ -45,7 +45,7 @@ The whole system was deployed using a serverless architecture on AWS.
 | AWS SAM | Infrastructure as Code |
 | AWS IAM | Permission management |
 
-#### 5.7.13.3 Cost Analysis
+#### 5.8.13.3 Cost Analysis
 
 During development and deployment, the team used AWS Billing & Cost Management to monitor resource usage. The workload stayed within the AWS Free Tier for the demo scale, so the actual AWS charge was almost zero.
 
@@ -71,7 +71,7 @@ The project also used AWS Secrets Manager to store the Groq API key. No API key 
 
 This value is documented as a small demo-scale Secrets Manager cost driver. Actual billing depends on the active account, region, retention period, and whether resources remain after testing.
 
-#### 5.7.13.4 AI Service Cost
+#### 5.8.13.4 AI Service Cost
 
 The final implementation uses Groq for development and demo AI workloads.
 
@@ -91,7 +91,7 @@ In this project:
 
 AWS costs remain dominated by Lambda, API Gateway, CloudFront, S3, DynamoDB, and Secrets Manager. Amazon Bedrock would incur inference charges only if it is enabled in a future version.
 
-#### 5.7.13.5 Total Project Cost
+#### 5.8.13.5 Total Project Cost
 
 | Category | Cost |
 | --- | --- |
@@ -108,7 +108,7 @@ Future AI provider       : Amazon Bedrock only if enabled
 
 The demo was kept cost-aware by using serverless services, monitoring active resources, and cleaning up resources that were no longer needed.
 
-#### 5.7.13.6 Resource Cleanup
+#### 5.8.13.6 Resource Cleanup
 
 After completing the workshop and evaluation, clean up resources to avoid unexpected cost.
 

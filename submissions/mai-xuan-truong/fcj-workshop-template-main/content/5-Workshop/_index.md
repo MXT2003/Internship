@@ -10,7 +10,7 @@ pre: " <b> 5. </b> "
 
 ### Serverless Cybersecurity Incident Response Management System
 
-This workshop presents the IRMS implementation in seven main parts so the sidebar stays compact while the detailed steps remain available inside each page.
+This workshop presents the IRMS implementation in eight main parts so the sidebar stays compact while the detailed steps remain available inside each page.
 
 #### Contents
 
@@ -20,4 +20,5 @@ This workshop presents the IRMS implementation in seven main parts so the sideba
 4. [Application Development](5.4-Application-Development/)
 5. [Deployment and Testing](5.5-Deployment-and-Testing/)
 6. [Frontend Integration and Web Deployment](5.6-Frontend-Integration-Web-Deployment/)
-7. [Results, Cost Analysis, and Cleanup](5.7-Results-Cost-Analysis-and-Cleanup/)
+7. [Project Demo and Testing](5.7-Project-Demo-and-Testing/)
+8. [Results, Cost Analysis, and Cleanup](5.8-Results-Cost-Analysis-and-Cleanup/)

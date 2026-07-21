@@ -10,7 +10,7 @@ pre: " <b> 5. </b> "
 
 ### Hệ thống quản lý sự cố an ninh mạng Serverless
 
-Workshop này giữ đầy đủ nội dung thực hiện từ tài liệu Word và được gom lại thành 7 mục chính để sidebar gọn hơn.
+Workshop này giữ đầy đủ nội dung thực hiện từ tài liệu Word và được gom lại thành 8 mục chính để sidebar gọn hơn.
 
 #### Nội dung
 
@@ -20,4 +20,5 @@ Workshop này giữ đầy đủ nội dung thực hiện từ tài liệu Word 
 4. [Phát triển ứng dụng](5.4-Application-Development/)
 5. [Triển khai và kiểm thử](5.5-Deployment-and-Testing/)
 6. [Tích hợp frontend và triển khai web](5.6-Frontend-Integration-Web-Deployment/)
-7. [Kết quả, chi phí và dọn dẹp](5.7-Results-Cost-Analysis-and-Cleanup/)
+7. [Demo và kiểm thử dự án](5.7-Project-Demo-and-Testing/)
+8. [Kết quả, chi phí và dọn dẹp](5.8-Results-Cost-Analysis-and-Cleanup/)

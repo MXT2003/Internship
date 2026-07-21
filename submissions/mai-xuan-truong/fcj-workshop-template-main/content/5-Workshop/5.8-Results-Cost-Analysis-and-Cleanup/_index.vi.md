@@ -1,20 +1,20 @@
 ---
 title: "Kết quả, chi phí và dọn dẹp"
 date: 2026-07-17
-weight: 7
+weight: 8
 chapter: false
-pre: " <b> 5.7. </b> "
+pre: " <b> 5.8. </b> "
 ---
 
-## 7. Kết quả, chi phí và dọn dẹp
+## 8. Kết quả, chi phí và dọn dẹp
 
 #### Nội dung
 
-- 5.7.13 Kết quả, chi phí & dọn dẹp
+- 5.8.13 Kết quả, chi phí & dọn dẹp
 
-### 5.7.13 Results, Cost Estimation and Resource Cleanup
+### 5.8.13 Results, Cost Estimation and Resource Cleanup
 
-#### 5.7.13.1 Project Results
+#### 5.8.13.1 Project Results
 Sau khi hoàn thành triển khai, hệ thống đạt được các chức năng chính:
 - ✅ User Authentication (Amazon Cognito)
 - ✅ Incident Management
@@ -31,7 +31,7 @@ Sau khi hoàn thành triển khai, hệ thống đạt được các chức năn
 - ✅ Infrastructure as Code
 Toàn bộ hệ thống được triển khai theo kiến trúc Serverless trên AWS.
 
-#### 5.7.13.2 AWS Services Used
+#### 5.8.13.2 AWS Services Used
 
 | Service | Purpose |
 | --- | --- |
@@ -46,7 +46,7 @@ Toàn bộ hệ thống được triển khai theo kiến trúc Serverless trên
 | AWS SAM | Infrastructure as Code |
 | AWS IAM | Permission Management |
 
-#### 5.7.13.3 Cost Analysis
+#### 5.8.13.3 Cost Analysis
 Trong quá trình phát triển và triển khai hệ thống, nhóm sử dụng AWS Billing & Cost Management để theo dõi mức sử dụng tài nguyên. Toàn bộ dịch vụ được triển khai trong AWS Free Tier, do đó chi phí phát sinh gần như bằng 0 USD.
 Bảng dưới đây tổng hợp mức sử dụng chính của các dịch vụ.
 
@@ -73,7 +73,7 @@ Dự án sử dụng AWS Secrets Manager để lưu Groq API key. Frontend khôn
 
 Giá trị này được ghi nhận như một yếu tố chi phí nhỏ ở quy mô demo. Chi phí thực tế phụ thuộc account, region, thời gian lưu và tài nguyên còn hoạt động sau khi test.
 
-#### 5.7.13.4 AI Service Cost
+#### 5.8.13.4 AI Service Cost
 
 Final implementation sử dụng Groq cho workload AI trong giai đoạn development/demo.
 
@@ -93,7 +93,7 @@ Trong phạm vi dự án:
 
 Chi phí AWS chủ yếu đến từ Lambda, API Gateway, CloudFront, S3, DynamoDB và Secrets Manager. Amazon Bedrock chỉ phát sinh inference charge nếu được bật trong phiên bản tương lai.
 
-#### 5.7.13.5 Total Project Cost
+#### 5.8.13.5 Total Project Cost
 
 | Category | Cost |
 | --- | --- |
@@ -110,7 +110,7 @@ Future AI provider       : Amazon Bedrock nếu được bật sau này
 
 Demo được giữ ở mức cost-aware bằng serverless services, kiểm tra tài nguyên đang chạy và cleanup tài nguyên không còn cần thiết.
 
-#### 5.7.13.6 Resource Cleanup
+#### 5.8.13.6 Resource Cleanup
 Sau khi hoàn thành workshop hoặc quá trình đánh giá, cần dọn dẹp tài nguyên để tránh phát sinh chi phí ngoài ý muốn.
 Khuyến nghị thực hiện theo thứ tự sau:
 - Xóa CloudFront Distribution cũ (nếu còn).
