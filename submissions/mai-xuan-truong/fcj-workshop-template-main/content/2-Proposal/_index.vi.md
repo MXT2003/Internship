@@ -6,9 +6,6 @@ chapter: false
 pre: " <b> 2. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Nội dung dưới đây chỉ dùng để tham khảo. Không nên sao chép nguyên văn vào báo cáo cá nhân.
-{{% /notice %}}
 
 # IRMS - Incident Response Management System
 
