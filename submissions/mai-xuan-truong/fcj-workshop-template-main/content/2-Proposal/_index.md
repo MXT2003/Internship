@@ -15,7 +15,7 @@ pre: " <b> 2. </b> "
 
 IRMS (Incident Response Management System) is a SaaS-style platform for managing cybersecurity incidents on AWS serverless services. The project was implemented by a five-member team during the FCAJ internship program. My main contribution focused on AWS infrastructure, API integration, deployment, testing, and documentation.
 
-The system standardizes the incident response workflow: detection, classification, assignment, investigation, evidence storage, reporting, and AI-assisted guidance. IRMS replaces informal tracking through Email, Excel, Zalo, or chat messages with a centralized web application. The final implementation uses Groq with model `llama-3.1-8b-instant`, stores the provider API key in AWS Secrets Manager, and includes a rule-based fallback when the AI provider is unavailable. Amazon Bedrock is kept as an optional future provider through the same provider abstraction.
+The system standardizes the incident response workflow: detection, classification, assignment, investigation, evidence storage, reporting, and AI-assisted guidance. IRMS replaces informal tracking through Email, Excel, Zalo, or chat messages with a centralized web application. The final implementation uses Groq with model `llama-3.1-8b-instant`, stores the provider API key in AWS Secrets Manager, and includes a rule-based fallback when the AI provider is unavailable.
 
 ### 2. Problem Statement
 
@@ -49,13 +49,11 @@ The system follows a Serverless-first model and avoids EC2, RDS, and NAT Gateway
 - **Model:** `llama-3.1-8b-instant`.
 - **Secret storage:** AWS Secrets Manager.
 - **Fallback:** Rule-based analysis if the provider is unavailable or times out.
-- **Future Enhancement:** Amazon Bedrock can be enabled later without changing the frontend API contract.
 
 #### Future Enhancements
 
 - **Amazon Route 53:** Custom domain and DNS management.
 - **AWS WAF:** Additional web request filtering in front of CloudFront.
-- **Amazon Bedrock:** Native AWS AI provider option when project requirements and account access allow it.
 
 ### 4. Technical Implementation
 
@@ -83,7 +81,7 @@ The system follows a Serverless-first model and avoids EC2, RDS, and NAT Gateway
 - **Week 2:** Implement Incident CRUD, DynamoDB access patterns, frontend API integration, and login-to-incident end-to-end testing.
 - **Week 3:** Implement evidence upload, report generation, EventBridge/SNS alert automation, and deployment validation.
 - **Week 4:** Complete CloudFront/S3 hosting, integrate the AI Assistant with Groq, configure Secrets Manager, test Cognito-protected API routes, and run end-to-end validation.
-- **Final period:** Refine the workshop, synchronize bilingual documentation, investigate Bedrock as a future provider, replace sensitive demo credentials with placeholders, and prepare the final report for submission.
+- **Final period:** Refine the workshop, synchronize bilingual documentation, replace sensitive demo credentials with placeholders, and prepare the final report for submission.
 
 ### 6. Budget Estimation
 
@@ -102,7 +100,6 @@ The serverless architecture has no continuously running compute servers. Cost is
 | Secrets Manager | Number of stored secrets |
 | CloudWatch | Logs and metrics |
 | Groq | Development/demo usage under the provider's free tier |
-| Amazon Bedrock | Future inference cost only if enabled |
 
 For the internship demo, the expected AWS usage is small. The team still monitors Billing and Cost Explorer regularly and removes unused resources after testing.
 

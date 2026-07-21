@@ -15,7 +15,7 @@ pre: " <b> 2. </b> "
 
 IRMS (Incident Response Management System) là nền tảng quản lý sự cố an ninh mạng theo hướng SaaS, được xây dựng trên các dịch vụ serverless của AWS. Dự án được thực hiện bởi nhóm 5 thành viên trong chương trình thực tập FCAJ. Phần đóng góp chính của tôi tập trung vào hạ tầng AWS, tích hợp API, triển khai, kiểm thử và tài liệu.
 
-Hệ thống chuẩn hóa quy trình xử lý incident: phát hiện, phân loại, phân công, điều tra, lưu bằng chứng, báo cáo và hỗ trợ bằng AI. IRMS thay thế cách theo dõi rời rạc qua Email, Excel, Zalo hoặc tin nhắn bằng một web application tập trung. Final implementation sử dụng Groq với model `llama-3.1-8b-instant`, lưu API key trong AWS Secrets Manager và có rule-based fallback khi provider không khả dụng. Amazon Bedrock được giữ như provider tương lai thông qua cùng lớp abstraction.
+Hệ thống chuẩn hóa quy trình xử lý incident: phát hiện, phân loại, phân công, điều tra, lưu bằng chứng, báo cáo và hỗ trợ bằng AI. IRMS thay thế cách theo dõi rời rạc qua Email, Excel, Zalo hoặc tin nhắn bằng một web application tập trung. Final implementation sử dụng Groq với model `llama-3.1-8b-instant`, lưu API key trong AWS Secrets Manager và có rule-based fallback khi provider không khả dụng.
 
 ### 2. Vấn đề cần giải quyết
 
@@ -49,13 +49,11 @@ Hệ thống đi theo hướng Serverless-first và không dùng EC2, RDS hoặc
 - **Model:** `llama-3.1-8b-instant`.
 - **Lưu secret:** AWS Secrets Manager.
 - **Fallback:** Rule-based analysis khi provider không khả dụng hoặc timeout.
-- **Future Enhancement:** Amazon Bedrock có thể được bật sau mà không đổi frontend API contract.
 
 #### Future Enhancements
 
 - **Amazon Route 53:** Custom domain và DNS management.
 - **AWS WAF:** Lọc request bổ sung phía trước CloudFront.
-- **Amazon Bedrock:** Provider AI native AWS khi yêu cầu dự án và quyền account cho phép.
 
 ### 4. Triển khai kỹ thuật
 
@@ -75,7 +73,7 @@ Hệ thống đi theo hướng Serverless-first và không dùng EC2, RDS hoặc
 - **Tuần 2:** Hoàn thành Incident CRUD, access pattern DynamoDB, tích hợp frontend API và kiểm thử login-to-incident.
 - **Tuần 3:** Hoàn thành evidence upload, report generation, EventBridge/SNS alert automation và kiểm thử deployment.
 - **Tuần 4:** Hoàn thành CloudFront/S3 hosting, tích hợp AI Assistant với Groq, cấu hình Secrets Manager, test các API route có Cognito và end-to-end validation.
-- **Giai đoạn cuối:** Rà soát workshop, đồng bộ tài liệu song ngữ, khảo sát Bedrock như provider tương lai, thay credential demo bằng placeholder và hoàn thiện báo cáo cuối.
+- **Giai đoạn cuối:** Rà soát workshop, đồng bộ tài liệu song ngữ, thay credential demo bằng placeholder và hoàn thiện báo cáo cuối.
 
 ### 6. Ước tính chi phí
 
@@ -94,7 +92,6 @@ Kiến trúc serverless không có compute server chạy liên tục. Chi phí c
 | Secrets Manager | Số lượng secrets |
 | CloudWatch | Logs và metrics |
 | Groq | Development/demo usage theo free tier của provider |
-| Amazon Bedrock | Chỉ phát sinh inference cost nếu bật trong tương lai |
 
 Trong phạm vi internship demo, mức sử dụng AWS nhỏ. Nhóm vẫn kiểm tra Billing và Cost Explorer định kỳ, đồng thời dọn tài nguyên không dùng sau khi test.
 

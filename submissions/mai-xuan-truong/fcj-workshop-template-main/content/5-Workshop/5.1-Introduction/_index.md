@@ -34,7 +34,7 @@ Regional — Data:
 Regional — Security & Automation:
 - GuardDuty → EventBridge → Lambda Alert Handler → DynamoDB + SNS
 External:
-- Groq API for AI Assistant, using model `llama-3.1-8b-instant`; the API key is stored only in AWS Secrets Manager. Amazon Bedrock remains an optional future provider.
+- Groq API for AI Assistant, using model `llama-3.1-8b-instant`; the API key is stored only in AWS Secrets Manager.
 
 #### 5.1.1.3 AWS Services Used
 

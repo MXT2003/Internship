@@ -83,7 +83,6 @@ Phiên bản cuối sử dụng Groq cho workload AI trong giai đoạn developm
 | Gross cost của Secrets Manager | USD 0.17 |
 | Khoản bù Free Tier/Credit | (USD 0.17) |
 | Net cost của Secrets Manager | USD 0.00 |
-| Provider tương lai | Amazon Bedrock |
 
 Trong phạm vi dự án:
 
@@ -92,7 +91,7 @@ Trong phạm vi dự án:
 - Không xử lý dữ liệu dung lượng lớn.
 - Nếu Groq không khả dụng, Lambda trả về rule-based fallback response.
 
-Chi phí AI hiện tại không đến từ Groq vì dự án dùng free tier cho development/demo. Trên AWS, cost driver liên quan đến AI chủ yếu là Secrets Manager do cần lưu API key an toàn. Amazon Bedrock chưa được bật trong phiên bản cuối, nên chưa phát sinh inference charge.
+Chi phí AI hiện tại không đến từ Groq vì dự án dùng free tier cho development/demo. Trên AWS, cost driver liên quan đến AI chủ yếu là Secrets Manager do cần lưu API key an toàn.
 
 #### 5.8.13.5 Tổng chi phí dự án
 
@@ -101,14 +100,12 @@ Chi phí AI hiện tại không đến từ Groq vì dự án dùng free tier ch
 | AWS services trong Free Tier | USD 0.00 | USD 0.00 | USD 0.00 |
 | AWS Secrets Manager | USD 0.17 | (USD 0.17) | USD 0.00 |
 | Groq API | USD 0.00 | Free Tier | USD 0.00 |
-| Amazon Bedrock | USD 0.00 | Chưa bật | USD 0.00 |
 | **Tổng thực tế** | **USD 0.17** | **(USD 0.17)** | **USD 0.00** |
 
 ```text
 Primary AWS usage       : Lambda, API Gateway, CloudFront, S3, DynamoDB, Cognito, CloudWatch
 Small gross cost driver : Secrets Manager (USD 0.17 before credit)
 Current AI provider     : Groq for development/demo usage
-Future AI provider      : Amazon Bedrock only if enabled
 Final net AWS cost      : USD 0.00 after Free Tier/Credit
 ```
 

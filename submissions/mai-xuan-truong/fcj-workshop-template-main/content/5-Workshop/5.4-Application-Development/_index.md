@@ -268,7 +268,6 @@ Rule-based analysis
 User receives a fallback notification
 ```
 
-Amazon Bedrock support remains a future migration option because the provider abstraction keeps the frontend contract unchanged.
 
 **Implemented AI endpoints:**
 

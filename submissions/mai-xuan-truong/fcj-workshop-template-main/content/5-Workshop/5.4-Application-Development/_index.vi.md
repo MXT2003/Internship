@@ -332,7 +332,6 @@ Rule-based analysis
 Người dùng nhận thông báo fallback
 ```
 
-Amazon Bedrock vẫn được giữ như một lựa chọn mở rộng trong tương lai vì provider abstraction giúp frontend không cần thay đổi contract API.
 
 **Các AI endpoint đã triển khai:**
 

@@ -82,7 +82,6 @@ The final implementation uses Groq for development and demo AI workloads. The AP
 | Secrets Manager gross cost | USD 0.17 |
 | Free Tier/Credit offset | (USD 0.17) |
 | Net Secrets Manager cost | USD 0.00 |
-| Future optional provider | Amazon Bedrock |
 
 In this project:
 
@@ -91,7 +90,7 @@ In this project:
 - No large-volume data processing was performed.
 - If Groq is unavailable, the Lambda returns a rule-based fallback response.
 
-The current AI cost does not come from Groq because the project used its free tier for development/demo. On AWS, the AI-related cost driver is mainly Secrets Manager because it stores the provider key safely. Amazon Bedrock was not enabled in the final version, so no Bedrock inference charge was generated.
+The current AI cost does not come from Groq because the project used its free tier for development/demo. On AWS, the AI-related cost driver is mainly Secrets Manager because it stores the provider key safely.
 
 #### 5.8.13.5 Total Project Cost
 
@@ -100,14 +99,12 @@ The current AI cost does not come from Groq because the project used its free ti
 | AWS services within Free Tier | USD 0.00 | USD 0.00 | USD 0.00 |
 | AWS Secrets Manager | USD 0.17 | (USD 0.17) | USD 0.00 |
 | Groq API | USD 0.00 | Free Tier | USD 0.00 |
-| Amazon Bedrock | USD 0.00 | Not enabled | USD 0.00 |
 | **Actual total** | **USD 0.17** | **(USD 0.17)** | **USD 0.00** |
 
 ```text
 Primary AWS usage       : Lambda, API Gateway, CloudFront, S3, DynamoDB, Cognito, CloudWatch
 Small gross cost driver : Secrets Manager (USD 0.17 before credit)
 Current AI provider     : Groq for development/demo usage
-Future AI provider      : Amazon Bedrock only if enabled
 Final net AWS cost      : USD 0.00 after Free Tier/Credit
 ```
 
