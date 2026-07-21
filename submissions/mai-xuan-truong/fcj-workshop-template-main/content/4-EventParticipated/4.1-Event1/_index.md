@@ -21,7 +21,7 @@ pre: " <b> 4.1. </b> "
 ## Speakers
 
 - Huynh Hoang Long - dopamine and behavioral psychology.
-- Thinh Nguyen - AI Engineer.
+- Thinh Nguyen.
 - Khang Nguyen - AWS Vietnam customer / Cloud Kinetics.
 - Thao - productivity optimization speaker.
 

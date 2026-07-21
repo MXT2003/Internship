@@ -21,7 +21,7 @@ pre: " <b> 4.1. </b> "
 ## Danh sách diễn giả
 
 - Huỳnh Hoàng Long - chia sẻ về tâm lý học và cơ chế Dopamine.
-- Thịnh Nguyễn - AI Engineer.
+- Thịnh Nguyễn.
 - Khang Nguyễn - khách hàng của AWS Việt Nam / Cloud Kinetics.
 - Thảo - chuyên gia chia sẻ về phương pháp tối ưu hóa năng suất.
 
