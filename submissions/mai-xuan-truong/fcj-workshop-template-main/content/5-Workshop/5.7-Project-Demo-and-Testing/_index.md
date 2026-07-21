@@ -26,7 +26,7 @@ Use the deployed frontend URL from the CloudFront distribution created in the pr
 
 | Item | Value |
 | --- | --- |
-| Project URL | `https://<cloudfront-distribution-domain>` |
+| Project URL | [https://d1cdyvxfzvnsxg.cloudfront.net/](https://d1cdyvxfzvnsxg.cloudfront.net/) |
 | Main test flow | Security Analyst |
 
 Demo users for testing:
@@ -37,8 +37,6 @@ Demo users for testing:
 | Manager | `manager@irms-demo.com` | Provided separately during demo |
 | Analyst | `analyst@irms-demo.com` | Provided separately during demo |
 | Auditor | `auditor@irms-demo.com` | Provided separately during demo |
-
-> The guided workflow in this section uses the Analyst account. Other roles can be used for additional exploration and permission checks. For safety, demo passwords are not published in the public workshop site and should be shared separately only when testing is needed.
 
 ### 5.7.2 Project roles
 

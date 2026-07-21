@@ -26,7 +26,7 @@ Sử dụng URL frontend đã deploy qua CloudFront ở phần trước.
 
 | Mục | Giá trị |
 | --- | --- |
-| Link dự án | `https://<cloudfront-distribution-domain>` |
+| Link dự án | [https://d1cdyvxfzvnsxg.cloudfront.net/](https://d1cdyvxfzvnsxg.cloudfront.net/) |
 | Luồng test chính | Security Analyst |
 
 Các tài khoản demo có thể dùng để kiểm thử:
@@ -37,8 +37,6 @@ Các tài khoản demo có thể dùng để kiểm thử:
 | Manager | `manager@irms-demo.com` | Cung cấp riêng khi demo |
 | Analyst | `analyst@irms-demo.com` | Cung cấp riêng khi demo |
 | Auditor | `auditor@irms-demo.com` | Cung cấp riêng khi demo |
-
-> Trong phần hướng dẫn này, luồng kiểm thử chính sử dụng tài khoản Analyst. Các vai trò còn lại có thể đăng nhập để tự kiểm tra thêm quyền truy cập và hành vi của hệ thống. Để an toàn, mật khẩu demo không được đăng công khai trên website và nên được gửi riêng khi cần kiểm thử.
 
 ### 5.7.2 Vai trò trong dự án
 
