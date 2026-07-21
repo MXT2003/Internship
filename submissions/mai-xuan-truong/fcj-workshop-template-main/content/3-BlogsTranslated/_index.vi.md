@@ -6,7 +6,6 @@ chapter: false
 pre: " <b> 3. </b> "
 ---
 
-# Các bài blogs đã dịch
 
 Trong quá trình thực tập, tôi đọc và biên soạn lại một số bài viết từ AWS Blog để hiểu thêm cách AWS áp dụng cloud, security và AI vào các bài toán thực tế. Phần này không chỉ tóm tắt nội dung gốc mà còn ghi lại góc nhìn cá nhân và những kiến thức tôi có thể liên hệ với dự án IRMS.
 

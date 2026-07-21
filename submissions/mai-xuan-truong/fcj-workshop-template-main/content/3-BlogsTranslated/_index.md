@@ -6,7 +6,6 @@ chapter: false
 pre: " <b> 3. </b> "
 ---
 
-# Translated Blogs
 
 During the internship, I read and rewrote selected AWS Blog articles to better understand how AWS applies cloud, security, and AI to real technical problems. This section does not only summarize the original articles; it also records my personal takeaways and how the topics relate to the IRMS project.
 

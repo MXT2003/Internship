@@ -30,6 +30,8 @@ Kiro CLI -> MCP Server -> CloudWatch -> RDS Logs -> AI tổng hợp kết quả 
 
 Cách làm này giúp giảm đáng kể thao tác thủ công khi cần kiểm tra tình trạng hệ thống hoặc điều tra sự cố liên quan đến database.
 
+![Kiến trúc phân tích log RDS bằng Kiro, MCP và CloudWatch](/Internship/images/3-BlogsTranslated/blog-diagram-03.jpeg)
+
 ### 3.2.2 Điều tôi học được
 
 Theo tôi, giá trị lớn nhất của bài viết không nằm ở việc "AI đọc log", mà nằm ở cơ chế kiểm soát quyền truy cập khi đưa AI vào hạ tầng cloud.

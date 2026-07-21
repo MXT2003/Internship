@@ -30,6 +30,8 @@ Kiro CLI -> MCP Server -> CloudWatch -> RDS Logs -> AI summarizes the result -> 
 
 This reduces a lot of manual work when checking system health or investigating database-related incidents.
 
+![RDS log analysis architecture with Kiro, MCP, and CloudWatch](/Internship/images/3-BlogsTranslated/blog-diagram-03.jpeg)
+
 ### 3.2.2 What I Learned
 
 From my perspective, the main value of the article is not simply that "AI reads logs". The important part is how access control is handled when AI is introduced into cloud infrastructure.
