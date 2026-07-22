@@ -15,7 +15,7 @@ pre: " <b> 4.3. </b> "
 
 ## **ONLINE** Attendance Evidence
 
-I attended Event 3 **ONLINE** from home through the program livestream. The images below are screenshots captured while I was following the event remotely.
+I attended Event 3 **ONLINE** from home through the program livestream. Following guidance from Mr. Nguyen Gia Hung, I captured several screenshots while watching the livestream to use as attendance evidence for the online event.
 
 ![Event 3 online attendance proof - cloud architecture session](/Internship/images/4-EventParticipated/event3-online-proof-01.png)
 

@@ -15,7 +15,7 @@ pre: " <b> 4.3. </b> "
 
 ## Minh chứng tham gia **ONLINE**
 
-Tôi tham gia Event 3 theo hình thức **ONLINE** tại nhà thông qua livestream của chương trình. Các hình ảnh dưới đây là ảnh chụp màn hình trong quá trình tôi theo dõi nội dung sự kiện trực tuyến.
+Tôi tham gia Event 3 theo hình thức **ONLINE** tại nhà thông qua livestream của chương trình. Theo hướng dẫn của anh Nguyễn Gia Hưng, khi tham gia sự kiện **ONLINE** tôi chụp lại một số màn hình trong lúc theo dõi livestream để làm minh chứng tham gia.
 
 ![Minh chứng tham gia online Event 3 - phần chia sẻ về cloud architecture](/Internship/images/4-EventParticipated/event3-online-proof-01.png)
 

@@ -12,6 +12,10 @@ pre: " <b> 4.2. </b> "
 - **Địa điểm:** Tổ chức trực tiếp tại tầng 26, tòa nhà Bitexco, đồng thời phát sóng livestream trên YouTube
 - **Vai trò:** Người tham dự **ONLINE**
 
+## Ghi chú về minh chứng tham gia **ONLINE**
+
+Do Event 2 tôi tham gia theo hình thức **ONLINE** qua livestream, tại thời điểm đó tôi chưa biết cần lưu lại ảnh minh chứng tham gia. Sau đó, từ hướng dẫn của anh Nguyễn Gia Hưng, tôi mới bắt đầu chụp lại màn hình khi tham gia online để ghi nhận minh chứng cho các sự kiện sau. Vì vậy, Event 2 hiện không có ảnh chụp màn hình riêng; nội dung trong phần này được tổng hợp từ quá trình theo dõi livestream và ghi chú cá nhân sau sự kiện.
+
 ## Mục đích của sự kiện
 
 - Chia sẻ kinh nghiệm và góc nhìn thực tế từ môi trường doanh nghiệp.

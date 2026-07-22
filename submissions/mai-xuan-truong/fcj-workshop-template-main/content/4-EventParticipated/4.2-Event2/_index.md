@@ -12,6 +12,10 @@ pre: " <b> 4.2. </b> "
 - **Location:** Hybrid event held on floor 26 of Bitexco Financial Tower, also livestreamed on YouTube
 - **Role:** **ONLINE** attendee
 
+## Note on **ONLINE** Attendance Evidence
+
+Because I attended Event 2 **ONLINE** through the livestream, I did not know at that time that I should save a screenshot as attendance evidence. After receiving guidance from Mr. Nguyen Gia Hung, I started capturing screenshots when joining online events to record participation evidence for later events. Therefore, Event 2 does not have a separate screenshot; the content in this section is based on my livestream participation and personal notes after the event.
+
 ## Event Objectives
 
 - Share practical experience from enterprise environments.
