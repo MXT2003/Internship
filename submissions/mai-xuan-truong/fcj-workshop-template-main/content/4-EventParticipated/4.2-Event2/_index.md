@@ -10,7 +10,7 @@ pre: " <b> 4.2. </b> "
 
 - **Time:** June 27, 2026
 - **Location:** Hybrid event held on floor 26 of Bitexco Financial Tower, also livestreamed on YouTube
-- **Role:** Online attendee
+- **Role:** **ONLINE** attendee
 
 ## Event Objectives
 

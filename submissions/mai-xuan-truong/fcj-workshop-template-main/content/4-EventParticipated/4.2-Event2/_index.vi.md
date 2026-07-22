@@ -10,7 +10,7 @@ pre: " <b> 4.2. </b> "
 
 - **Thời gian:** 27/06/2026
 - **Địa điểm:** Tổ chức trực tiếp tại tầng 26, tòa nhà Bitexco, đồng thời phát sóng livestream trên YouTube
-- **Vai trò:** Người tham dự (online)
+- **Vai trò:** Người tham dự **ONLINE**
 
 ## Mục đích của sự kiện
 

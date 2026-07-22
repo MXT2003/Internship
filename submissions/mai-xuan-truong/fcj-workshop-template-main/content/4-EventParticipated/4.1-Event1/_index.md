@@ -10,11 +10,11 @@ pre: " <b> 4.1. </b> "
 
 - **Time:** Saturday, May 09, 2026
 - **Location:** Offline event held on floor 26 of Bitexco Financial Tower
-- **Role:** Offline attendee
+- **Role:** **OFFLINE** attendee
 
 ## Attendance Evidence
 
-Since this was the first event I attended in the internship program, I did not know at that time that I should prepare a clear individual attendance photo. Therefore, the available evidence includes the group photo from the offline event and a zoomed-in version with an arrow marking my position. The zoomed-in image is not very sharp, so I kindly ask the mentors for understanding regarding the evidence for this first event.
+Since this was the first event I attended in the internship program, I did not know at that time that I should prepare a clear individual attendance photo. Therefore, the available evidence includes the group photo from the **OFFLINE** event and a zoomed-in version with an arrow marking my position. The zoomed-in image is not very sharp, so I kindly ask the mentors for understanding regarding the evidence for this first event.
 
 ![Zoomed attendance proof for Event 1](/Internship/images/4-EventParticipated/event1-attendance-proof.png)
 
@@ -22,7 +22,7 @@ Since this was the first event I attended in the internship program, I did not k
 
 ![Group photo at Event 1](/Internship/images/4-EventParticipated/event1-group-photo.png)
 
-*Group photo from the offline event on floor 26 of Bitexco Financial Tower.*
+*Group photo from the **OFFLINE** event on floor 26 of Bitexco Financial Tower.*
 
 ## Event Objectives
 

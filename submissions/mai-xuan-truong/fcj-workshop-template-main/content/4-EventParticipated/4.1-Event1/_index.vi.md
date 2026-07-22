@@ -10,11 +10,11 @@ pre: " <b> 4.1. </b> "
 
 - **Thời gian:** Thứ 7, ngày 09/05/2026
 - **Địa điểm:** Tổ chức trực tiếp tại tầng 26, tòa nhà Bitexco
-- **Vai trò:** Người tham dự offline
+- **Vai trò:** Người tham dự **OFFLINE**
 
 ## Minh chứng tham gia sự kiện
 
-Do đây là sự kiện đầu tiên tôi tham gia trong chương trình thực tập nên lúc đó tôi chưa biết cần chuẩn bị ảnh minh chứng cá nhân rõ ràng tại sự kiện. Vì vậy, minh chứng hiện có là ảnh chụp tập thể tại buổi offline và một ảnh đã được phóng to, đánh dấu bằng mũi tên để thể hiện vị trí của tôi trong ảnh. Ảnh phóng to không thật sự rõ nét, mong các anh/chị mentor thông cảm cho phần minh chứng của event đầu tiên này.
+Do đây là sự kiện đầu tiên tôi tham gia trong chương trình thực tập nên lúc đó tôi chưa biết cần chuẩn bị ảnh minh chứng cá nhân rõ ràng tại sự kiện. Vì vậy, minh chứng hiện có là ảnh chụp tập thể tại buổi **OFFLINE** và một ảnh đã được phóng to, đánh dấu bằng mũi tên để thể hiện vị trí của tôi trong ảnh. Ảnh phóng to không thật sự rõ nét, mong các anh/chị mentor thông cảm cho phần minh chứng của event đầu tiên này.
 
 ![Ảnh phóng to minh chứng tôi có mặt tại Event 1](/Internship/images/4-EventParticipated/event1-attendance-proof.png)
 
@@ -22,7 +22,7 @@ Do đây là sự kiện đầu tiên tôi tham gia trong chương trình thực
 
 ![Ảnh chụp tập thể tại Event 1](/Internship/images/4-EventParticipated/event1-group-photo.png)
 
-*Ảnh chụp tập thể tại sự kiện offline ở tầng 26, tòa nhà Bitexco.*
+*Ảnh chụp tập thể tại sự kiện **OFFLINE** ở tầng 26, tòa nhà Bitexco.*
 
 ## Mục đích của sự kiện
 

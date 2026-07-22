@@ -9,9 +9,25 @@ pre: " <b> 4.3. </b> "
 ## AWS: Enterprise Cloud Architectures and Industry Application featuring Cloud Kinetics & Renova Cloud
 
 - **Time:** Morning, July 04, 2026
-- **Location:** Hybrid event held on floor 26 of Bitexco Financial Tower
+- **Location:** Hybrid event held on floor 26 of Bitexco Financial Tower and livestreamed for **ONLINE** attendees
 - **Participants:** The event also included students from Swinburne Vietnam, including the Can Tho campus.
-- **Role:** Online attendee
+- **Role:** **ONLINE** attendee from home
+
+## **ONLINE** Attendance Evidence
+
+I attended Event 3 **ONLINE** from home through the program livestream. The images below are screenshots captured while I was following the event remotely.
+
+![Event 3 online attendance proof - cloud architecture session](/Internship/images/4-EventParticipated/event3-online-proof-01.png)
+
+*Screenshot taken while I followed the cloud architecture session in Event 3.*
+
+![Event 3 online attendance proof - program introduction](/Internship/images/4-EventParticipated/event3-online-proof-02.png)
+
+*Screenshot taken while I followed the AWS and enterprise cloud architectures introduction.*
+
+![Event 3 online attendance proof - skills sharing session](/Internship/images/4-EventParticipated/event3-online-proof-03.png)
+
+*Screenshot taken while I followed the final sharing session through the livestream.*
 
 ## Event Objectives
 

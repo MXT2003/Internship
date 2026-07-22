@@ -9,9 +9,25 @@ pre: " <b> 4.3. </b> "
 ## AWS: Enterprise Cloud Architectures and Industry Application featuring Cloud Kinetics & Renova Cloud
 
 - **Thời gian:** Buổi sáng, ngày 04/07/2026
-- **Địa điểm:** Tổ chức trực tiếp tại tầng 26, tòa nhà Bitexco
+- **Địa điểm:** Tổ chức trực tiếp tại tầng 26, tòa nhà Bitexco và phát sóng livestream để người tham dự có thể theo dõi **ONLINE**
 - **Thành phần tham dự:** Có thêm sự góp mặt của sinh viên Swinburne Việt Nam, bao gồm cơ sở Cần Thơ.
-- **Vai trò:** Người tham dự (online)
+- **Vai trò:** Người tham dự **ONLINE** tại nhà
+
+## Minh chứng tham gia **ONLINE**
+
+Tôi tham gia Event 3 theo hình thức **ONLINE** tại nhà thông qua livestream của chương trình. Các hình ảnh dưới đây là ảnh chụp màn hình trong quá trình tôi theo dõi nội dung sự kiện trực tuyến.
+
+![Minh chứng tham gia online Event 3 - phần chia sẻ về cloud architecture](/Internship/images/4-EventParticipated/event3-online-proof-01.png)
+
+*Ảnh chụp màn hình khi tôi theo dõi phần chia sẻ về cloud architecture trong Event 3.*
+
+![Minh chứng tham gia online Event 3 - phần giới thiệu chương trình](/Internship/images/4-EventParticipated/event3-online-proof-02.png)
+
+*Ảnh chụp màn hình khi tôi theo dõi phần giới thiệu AWS và enterprise cloud architectures.*
+
+![Minh chứng tham gia online Event 3 - phần chia sẻ kỹ năng](/Internship/images/4-EventParticipated/event3-online-proof-03.png)
+
+*Ảnh chụp màn hình khi tôi theo dõi phần chia sẻ cuối sự kiện qua livestream.*
 
 ## Mục đích của sự kiện
 
