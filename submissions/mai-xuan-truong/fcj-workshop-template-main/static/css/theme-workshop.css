@@ -226,3 +226,41 @@ div.notices.info p {
   border-top: 30px solid #fd9827;
   background: #fff2db;
 }
+/* Keep long Worklog tables readable on desktop and mobile. */
+#body-inner table {
+  width: 100%;
+  table-layout: fixed;
+}
+
+#body-inner table th,
+#body-inner table td {
+  white-space: normal;
+  overflow-wrap: anywhere;
+  word-break: normal;
+  vertical-align: top;
+}
+
+#body-inner table td:nth-child(1),
+#body-inner table th:nth-child(1) {
+  width: 44px;
+  text-align: center;
+}
+
+#body-inner table td:nth-child(3),
+#body-inner table th:nth-child(3),
+#body-inner table td:nth-child(4),
+#body-inner table th:nth-child(4) {
+  width: 120px;
+}
+
+#body-inner table td:nth-child(5),
+#body-inner table th:nth-child(5) {
+  width: 160px;
+}
+
+#body-inner code {
+  white-space: normal;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
