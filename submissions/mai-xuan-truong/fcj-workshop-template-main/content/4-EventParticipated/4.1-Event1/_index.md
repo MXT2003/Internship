@@ -12,6 +12,18 @@ pre: " <b> 4.1. </b> "
 - **Location:** Offline event held on floor 26 of Bitexco Financial Tower
 - **Role:** Offline attendee
 
+## Attendance Evidence
+
+Since this was the first event I attended in the internship program, I did not know at that time that I should prepare a clear individual attendance photo. Therefore, the available evidence includes the group photo from the offline event and a zoomed-in version with an arrow marking my position. The zoomed-in image is not very sharp, so I kindly ask the mentors for understanding regarding the evidence for this first event.
+
+![Zoomed attendance proof for Event 1](/Internship/images/4-EventParticipated/event1-attendance-proof.png)
+
+*Zoomed-in image from the group photo, with an arrow marking my position in Event 1.*
+
+![Group photo at Event 1](/Internship/images/4-EventParticipated/event1-group-photo.png)
+
+*Group photo from the offline event on floor 26 of Bitexco Financial Tower.*
+
 ## Event Objectives
 
 - Share scientific methods for improving learning efficiency and self-discipline.
@@ -59,14 +71,3 @@ The method emphasized building small behaviors, taking action, and maintaining d
 
 Although it was a weekend event, the speakers brought a lot of energy. The content combined AI, behavioral psychology, productivity, and career orientation. I learned that in the AI era, technical skills must go together with discipline, self-learning, and a strong mindset.
 
-## Attendance Evidence
-
-Since this was the first event I attended in the internship program, I did not know at that time that I should prepare a clear individual attendance photo. Therefore, the available evidence includes the group photo from the offline event and a zoomed-in version with an arrow marking my position. The zoomed-in image is not very sharp, so I kindly ask the mentors for understanding regarding the evidence for this first event.
-
-![Zoomed attendance proof for Event 1](/Internship/images/4-EventParticipated/event1-attendance-proof.png)
-
-*Zoomed-in image from the group photo, with an arrow marking my position in Event 1.*
-
-![Group photo at Event 1](/Internship/images/4-EventParticipated/event1-group-photo.png)
-
-*Group photo from the offline event on floor 26 of Bitexco Financial Tower.*

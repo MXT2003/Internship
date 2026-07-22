@@ -12,6 +12,18 @@ pre: " <b> 4.1. </b> "
 - **Địa điểm:** Tổ chức trực tiếp tại tầng 26, tòa nhà Bitexco
 - **Vai trò:** Người tham dự offline
 
+## Minh chứng tham gia sự kiện
+
+Do đây là sự kiện đầu tiên tôi tham gia trong chương trình thực tập nên lúc đó tôi chưa biết cần chuẩn bị ảnh minh chứng cá nhân rõ ràng tại sự kiện. Vì vậy, minh chứng hiện có là ảnh chụp tập thể tại buổi offline và một ảnh đã được phóng to, đánh dấu bằng mũi tên để thể hiện vị trí của tôi trong ảnh. Ảnh phóng to không thật sự rõ nét, mong các anh/chị mentor thông cảm cho phần minh chứng của event đầu tiên này.
+
+![Ảnh phóng to minh chứng tôi có mặt tại Event 1](/Internship/images/4-EventParticipated/event1-attendance-proof.png)
+
+*Ảnh phóng to từ ảnh tập thể, có mũi tên đánh dấu vị trí của tôi trong buổi Event 1.*
+
+![Ảnh chụp tập thể tại Event 1](/Internship/images/4-EventParticipated/event1-group-photo.png)
+
+*Ảnh chụp tập thể tại sự kiện offline ở tầng 26, tòa nhà Bitexco.*
+
 ## Mục đích của sự kiện
 
 - Chia sẻ các phương pháp khoa học để tối ưu hóa việc học và rèn luyện kỷ luật bản thân.
@@ -59,14 +71,3 @@ Diễn giả giới thiệu cách chuyển từ phụ thuộc vào cảm hứng 
 
 Dù là một buổi chia sẻ cuối tuần, năng lượng từ các diễn giả rất tích cực. Sự kiện không chỉ nói về kỹ thuật AI mà còn kết hợp tâm lý học hành vi, năng suất cá nhân và định hướng nghề nghiệp. Tôi nhận ra trong kỷ nguyên AI, người học công nghệ không chỉ cần biết công cụ mà còn cần kỷ luật, khả năng tự học và tâm lý vững vàng.
 
-## Minh chứng tham gia sự kiện
-
-Do đây là sự kiện đầu tiên tôi tham gia trong chương trình thực tập nên lúc đó tôi chưa biết cần chuẩn bị ảnh minh chứng cá nhân rõ ràng tại sự kiện. Vì vậy, minh chứng hiện có là ảnh chụp tập thể tại buổi offline và một ảnh đã được phóng to, đánh dấu bằng mũi tên để thể hiện vị trí của tôi trong ảnh. Ảnh phóng to không thật sự rõ nét, mong các anh/chị mentor thông cảm cho phần minh chứng của event đầu tiên này.
-
-![Ảnh phóng to minh chứng tôi có mặt tại Event 1](/Internship/images/4-EventParticipated/event1-attendance-proof.png)
-
-*Ảnh phóng to từ ảnh tập thể, có mũi tên đánh dấu vị trí của tôi trong buổi Event 1.*
-
-![Ảnh chụp tập thể tại Event 1](/Internship/images/4-EventParticipated/event1-group-photo.png)
-
-*Ảnh chụp tập thể tại sự kiện offline ở tầng 26, tòa nhà Bitexco.*
