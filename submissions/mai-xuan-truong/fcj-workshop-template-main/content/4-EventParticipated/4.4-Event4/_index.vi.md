@@ -16,7 +16,7 @@ pre: " <b> 4.4. </b> "
 
 Tôi tham gia Event 4 trực tiếp tại tầng 26, tòa nhà Bitexco. Ảnh dưới đây được chụp tại địa điểm tổ chức sự kiện vào ngày 25/07/2026 để làm minh chứng tham gia **OFFLINE**.
 
-![Minh chứng tham gia offline Event 4](/Internship/images/4-EventParticipated/event4-offline-proof.png)
+<img src="/Internship/images/4-EventParticipated/event4-offline-proof.png" alt="Minh chứng tham gia offline Event 4" style="max-width: 520px; width: 100%; height: auto;" />
 
 *Ảnh minh chứng tôi có mặt trực tiếp tại Event 4 ở tòa nhà Bitexco.*
 

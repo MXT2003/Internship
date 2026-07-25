@@ -16,7 +16,7 @@ pre: " <b> 4.4. </b> "
 
 I attended Event 4 directly on floor 26 of Bitexco Financial Tower. The photo below was taken at the event venue on July 25, 2026 as **OFFLINE** attendance evidence.
 
-![Event 4 offline attendance proof](/Internship/images/4-EventParticipated/event4-offline-proof.png)
+<img src="/Internship/images/4-EventParticipated/event4-offline-proof.png" alt="Event 4 offline attendance proof" style="max-width: 520px; width: 100%; height: auto;" />
 
 *Photo evidence showing my direct attendance at Event 4 in Bitexco Financial Tower.*
 
