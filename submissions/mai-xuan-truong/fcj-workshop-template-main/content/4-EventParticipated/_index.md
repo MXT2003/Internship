@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 4. </b> "
 ---
 
-During the internship, I participated in three events related to AI, AWS, cloud architecture, career orientation, and working skills in the technology era. These events helped me expand my perspective beyond lab exercises and connect the knowledge to the IRMS project and my career preparation.
+During the internship, I participated in four events related to AI, AWS, cloud architecture, career orientation, and working skills in the technology era. These events helped me expand my perspective beyond lab exercises and connect the knowledge to the IRMS project and my career preparation.
 
 ## Event List
 
@@ -32,6 +32,12 @@ During the internship, I participated in three events related to AI, AWS, cloud 
 - **Role:** **ONLINE** attendee
 - **Main value:** Career growth can be viewed through Capability x Visibility x Consistency.
 
+### [Event 4 - FCAJ x Agentic AI Build Week: Show Up. Build. Pitch. WIN!](4.4-Event4/)
+
+- **Time:** Saturday morning, July 25, 2026
+- **Location:** Hybrid event held on floor 26 of Bitexco Financial Tower and livestreamed for **ONLINE** attendees
+- **Role:** **OFFLINE** attendee
+- **Main value:** I learned how hackathon teams turned AI ideas into practical demos, managed scope, collaborated under pressure, and designed human-in-the-loop systems.
 ## Summary
 
-Through these three events, I learned that growing in cloud and AI requires more than tools. It also requires architecture thinking, self-learning, communication skills, and proactive career development.
+Through these four events, I learned that growing in cloud and AI requires more than tools. It also requires architecture thinking, self-learning, communication skills, and proactive career development.

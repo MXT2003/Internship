@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 4. </b> "
 ---
 
-Trong quá trình thực tập, tôi đã tham gia 3 sự kiện liên quan đến AI, AWS, cloud architecture, định hướng nghề nghiệp và kỹ năng làm việc trong thời đại công nghệ mới. Các sự kiện này giúp tôi mở rộng góc nhìn ngoài phạm vi bài lab, đồng thời liên hệ được nhiều kiến thức vào dự án IRMS và quá trình chuẩn bị nghề nghiệp.
+Trong quá trình thực tập, tôi đã tham gia 4 sự kiện liên quan đến AI, AWS, cloud architecture, định hướng nghề nghiệp và kỹ năng làm việc trong thời đại công nghệ mới. Các sự kiện này giúp tôi mở rộng góc nhìn ngoài phạm vi bài lab, đồng thời liên hệ được nhiều kiến thức vào dự án IRMS và quá trình chuẩn bị nghề nghiệp.
 
 ## Danh sách sự kiện
 
@@ -32,6 +32,12 @@ Trong quá trình thực tập, tôi đã tham gia 3 sự kiện liên quan đ�
 - **Vai trò:** Người tham dự **ONLINE**
 - **Giá trị chính:** Công thức phát triển sự nghiệp có thể nhìn qua Capability x Visibility x Consistency.
 
+### [Event 4 - FCAJ x Agentic AI Build Week: Show Up. Build. Pitch. WIN!](4.4-Event4/)
+
+- **Thời gian:** Buổi sáng Thứ 7, ngày 25/07/2026
+- **Địa điểm:** Tổ chức trực tiếp tại tầng 26, tòa nhà Bitexco, đồng thời phát sóng livestream cho người tham dự **ONLINE**
+- **Vai trò:** Người tham dự **OFFLINE**
+- **Giá trị chính:** Học được cách các đội hackathon biến ý tưởng AI thành demo thực tế, quản trị scope, phối hợp nhóm và thiết kế human-in-the-loop.
 ## Tổng kết
 
-Thông qua 3 sự kiện, tôi học được rằng để phát triển trong lĩnh vực cloud/AI không chỉ cần biết công cụ, mà còn cần tư duy kiến trúc, khả năng tự học, kỹ năng giao tiếp và sự chủ động tạo cơ hội cho bản thân.
+Thông qua 4 sự kiện, tôi học được rằng để phát triển trong lĩnh vực cloud/AI không chỉ cần biết công cụ, mà còn cần tư duy kiến trúc, khả năng tự học, kỹ năng giao tiếp và sự chủ động tạo cơ hội cho bản thân.
