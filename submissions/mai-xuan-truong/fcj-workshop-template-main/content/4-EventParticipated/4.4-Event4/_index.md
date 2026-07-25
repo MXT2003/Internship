@@ -35,7 +35,7 @@ I attended Event 4 directly on floor 26 of Bitexco Financial Tower. The photo be
 
 - **One Team**
 - **Signal Scout**
-- **Plan**
+- **Plan V**
 - **3KA**
 - **Six Pillar**
 
@@ -53,9 +53,9 @@ One Team built a multi-channel ordering AI assistant through Zalo and WhatsApp, 
 
 Signal Scout created a system that collects scattered competitor signals from the Internet, such as financial reports and public information. A multi-agent workflow then analyzes whether a business should adopt a similar model while considering risks and potential revenue.
 
-### Plan - AI Assistant for Solution Architects
+### Plan V - AI Assistant for Solution Architects
 
-Plan built an assistant for Solution Architects that analyzes requirements written in natural language. From the initial input, the system can suggest a Draw.io cloud architecture diagram, produce a cost table, and generate Terraform code for infrastructure deployment.
+Plan V built an assistant for Solution Architects that analyzes requirements written in natural language. From the initial input, the system can suggest a Draw.io cloud architecture diagram, produce a cost table, and generate Terraform code for infrastructure deployment.
 
 ### 3KA - S.H.E.P.H.E.R.D
 

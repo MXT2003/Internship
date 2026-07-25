@@ -35,7 +35,7 @@ Tôi tham gia Event 4 trực tiếp tại tầng 26, tòa nhà Bitexco. Ảnh d�
 
 - **One Team**
 - **Signal Scout**
-- **Plan**
+- **Plan V**
 - **3KA**
 - **Six Pillar**
 
@@ -53,9 +53,9 @@ One Team xây dựng trợ lý AI đặt hàng đa kênh qua Zalo và WhatsApp, 
 
 Signal Scout tạo hệ thống thu thập các tín hiệu rời rạc của đối thủ cạnh tranh từ Internet, ví dụ như báo cáo tài chính hoặc thông tin công khai. Sau đó, hệ thống multi-agent phân tích để đánh giá doanh nghiệp có nên áp dụng mô hình tương tự hay không, đồng thời xem xét rủi ro và doanh thu dự kiến.
 
-### Plan - AI Assistant for Solution Architects
+### Plan V - AI Assistant for Solution Architects
 
-Nhóm Plan xây dựng ứng dụng hỗ trợ Solution Architect phân tích yêu cầu bằng ngôn ngữ tự nhiên. Từ input ban đầu, hệ thống có thể gợi ý sơ đồ kiến trúc cloud dạng Draw.io, xuất bảng chi phí và tạo mã Terraform để triển khai hạ tầng.
+Nhóm Plan V xây dựng ứng dụng hỗ trợ Solution Architect phân tích yêu cầu bằng ngôn ngữ tự nhiên. Từ input ban đầu, hệ thống có thể gợi ý sơ đồ kiến trúc cloud dạng Draw.io, xuất bảng chi phí và tạo mã Terraform để triển khai hạ tầng.
 
 ### 3KA - S.H.E.P.H.E.R.D
 
